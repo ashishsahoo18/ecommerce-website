@@ -8,39 +8,94 @@
 </head>
 <body>
 
-    <header>
-        <h1>ShopEasy</h1>
+<header>
+    <h1>ShopEasy</h1>
+
+    <div class="header-right">
+        <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+
         <div class="cart">
             🛒 Cart: <span id="cart-count">0</span>
         </div>
-    </header>
+    </div>
+</header>
 
-    <section class="products">
+<section class="hero">
+    <h2>Welcome to ShopEasy</h2>
+    <p>Best Deals on Electronics & Accessories</p>
+    <button>Shop Now</button>
+</section>
 
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300" alt="Headphones">
-            <h3>Wireless Headphones</h3>
-            <p>₹1,999</p>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
+<section class="search-section">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Products..."
+        onkeyup="searchProducts()"
+    >
+</section>
 
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=300" alt="Watch">
-            <h3>Smart Watch</h3>
-            <p>₹2,499</p>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
+<section class="products">
 
-        <div class="product">
-            <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=300" alt="Speaker">
-            <h3>Bluetooth Speaker</h3>
-            <p>₹1,499</p>
-            <button onclick="addToCart()">Add to Cart</button>
-        </div>
+    <div class="product">
+        <h3>Wireless Headphones</h3>
+        <p>₹1,999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
 
-    </section>
+    <div class="product">
+        <h3>Smart Watch</h3>
+        <p>₹2,499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
 
-    <script src="script.js"></script>
+    <div class="product">
+        <h3>Bluetooth Speaker</h3>
+        <p>₹1,499</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Gaming Mouse</h3>
+        <p>₹799</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Laptop Bag</h3>
+        <p>₹999</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>USB Keyboard</h3>
+        <p>₹699</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Power Bank</h3>
+        <p>₹1,299</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <h3>Bluetooth Earbuds</h3>
+        <p>₹1,799</p>
+        <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+</section>
+
+<div id="notification" class="notification">
+    Product Added Successfully!
+</div>
+
+<footer>
+    <p>© 2026 ShopEasy | Developed by Ashish</p>
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
