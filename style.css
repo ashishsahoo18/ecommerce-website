@@ -301,4 +301,8 @@ footer{
     .hero h1{
         font-size:35px;
     }
+    .cart-sidebar button{
+    background:red;
+    margin-top:5px;
+}
 }

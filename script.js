@@ -122,9 +122,9 @@ const products = [
 
 {
     id:16,
-    name:"Smartphone",
-    price:194110,
-    category:"Electronics",
+    name:"Samsung Galaxy S24 Ultra",
+    price:119110,
+    category:"Mobiles",
     image:"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRTe4GqrFm8b-XZa94e4q-PrC2jFnpRsTnCrzG7nxci3ThMPuISkaXI-qyAU6t10PPt_vO-yyOFQF7bmtFzEVSf7k0o29YW3PTVXakLC4Uw1KGrCv-6I6W1i2K5uSDGADo2mf8_lw&usqp=CAc"
 },
 
@@ -163,45 +163,45 @@ const products = [
     id:21,
     name:"iPhone 16",
     brand:"Apple",
-    price:79999,
+    price:69999,
     category:"Mobiles",
-    image:"https://picsum.photos/300/250?random=21"
+    image:"https://rukminim1.flixcart.com/image/767/767/xif0q/mobile/h/u/i/-original-imahgfmyczqxhtm2.jpeg?q=21"
 },
 
 {
     id:22,
     name:"Samsung Galaxy S25",
     brand:"Samsung",
-    price:74999,
+    price:79999,
     category:"Mobiles",
-    image:"https://picsum.photos/300/250?random=22"
+    image:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/d/0/-original-imahfvuaphhgxtf7.jpeg?q=22"
 },
 
 {
     id:23,
     name:"Vivo V50",
     brand:"Vivo",
-    price:29999,
+    price:31454,
     category:"Mobiles",
-    image:"https://picsum.photos/300/250?random=23"
+    image:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/a/i/v50-5g-v2427-vivo-original-imahfg86ascws6qs.jpeg?q=23"
 },
 
 {
     id:24,
     name:"OPPO Reno 14",
     brand:"OPPO",
-    price:32999,
+    price:42999,
     category:"Mobiles",
-    image:"https://picsum.photos/300/250?random=24"
+    image:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/u/k/-original-imahdzg7pc55yuzy.jpeg?q=24"
 },
 
 {
     id:25,
     name:"Nothing Phone 3",
     brand:"Nothing",
-    price:39999,
+    price:59999,
     category:"Mobiles",
-    image:"https://picsum.photos/300/250?random=25"
+    image:"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/0/q/-original-imahgfnygwdeyrzp.jpeg?q=25"
 }
 
 ];
@@ -275,23 +275,37 @@ function updateCart(){
 
     let total = 0;
 
-    cart.forEach(item => {
+    cart.forEach((item,index) => {
 
         total += item.price;
 
-        cartItems.innerHTML += `
-        <li>
-            ${item.name}
-            <br>
-            ₹${item.price}
-        </li>
-        `;
+    cartItems.innerHTML += `
+    <li>
+        ${item.name}
+        <br>
+        ₹${item.price}
+        <br>
+        <button onclick="removeFromCart(${index})">
+            Remove
+        </button>
+    </li>
+    `;
     });
 
     totalPrice.innerText = total;
     cartCount.innerText = cart.length;
 }
+function removeFromCart(index){
 
+    cart.splice(index,1);
+
+    localStorage.setItem(
+        "cart",
+        JSON.stringify(cart)
+    );
+
+    updateCart();
+}
 function showNotification(){
 
     const notification =
@@ -353,6 +367,23 @@ function toggleDarkMode(){
     document.body.classList.toggle(
         "dark-mode"
     );
+}
+function subscribeUser(){
+
+    let email =
+    document.getElementById("emailInput").value;
+
+    if(email === ""){
+
+        alert("Please enter your email");
+
+        return;
+    }
+
+    alert("Thank you for subscribing!");
+
+    document.getElementById("emailInput").value = "";
+
 }
 
 displayProducts(products);
