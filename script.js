@@ -158,6 +158,50 @@ const products = [
     price:2499,
     category:"Electronics",
     image:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSUAZDtgbsmzzzxp7vwsCVXGw75qb3O-2qwV5lr0NCU_vNaX42prX3M8ttF-ywLD72gcAYjLGrBlYEUNZtsStTsBTocBmpCSl-Q4EE8qMkffPdClFP6j-cRkVrUjqeRPbFHJj9b&usqp=CAc"
+},
+{
+    id:21,
+    name:"iPhone 16",
+    brand:"Apple",
+    price:79999,
+    category:"Mobiles",
+    image:"https://picsum.photos/300/250?random=21"
+},
+
+{
+    id:22,
+    name:"Samsung Galaxy S25",
+    brand:"Samsung",
+    price:74999,
+    category:"Mobiles",
+    image:"https://picsum.photos/300/250?random=22"
+},
+
+{
+    id:23,
+    name:"Vivo V50",
+    brand:"Vivo",
+    price:29999,
+    category:"Mobiles",
+    image:"https://picsum.photos/300/250?random=23"
+},
+
+{
+    id:24,
+    name:"OPPO Reno 14",
+    brand:"OPPO",
+    price:32999,
+    category:"Mobiles",
+    image:"https://picsum.photos/300/250?random=24"
+},
+
+{
+    id:25,
+    name:"Nothing Phone 3",
+    brand:"Nothing",
+    price:39999,
+    category:"Mobiles",
+    image:"https://picsum.photos/300/250?random=25"
 }
 
 ];
@@ -278,7 +322,15 @@ function searchProducts(){
 
     displayProducts(filtered);
 }
+function filterBrand(brand){
 
+    const filtered = products.filter(
+        product => product.brand === brand
+    );
+
+    displayProducts(filtered);
+
+}
 function filterProducts(category){
 
     if(category === "all"){
