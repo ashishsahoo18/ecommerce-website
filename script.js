@@ -14,16 +14,16 @@ const PRODUCTS = [
   // ── MOBILES ──────────────────────────────────────────────
   {
     id: 1, name: 'Samsung Galaxy S24 Ultra', brand: 'Samsung',
-    category: 'Mobiles', price: 129999, original: 154999, rating: 4.7, reviews: 12540,
-    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=80',
+    category: 'Mobiles', price: 81400, original: 91999, rating: 4.7, reviews: 12540,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS_Fy4hdwyIQZXTCWmpOp0l7en3LHDvHxgIa836PSsF7HlgJNsjGuUszPm2q2i55sG6EmEPvjTX4GRZRJhRxV7lZe5E6KO7',
     badge: 'hot', tags: ['5G', '200MP Camera', 'Titanium'],
     desc: 'The most powerful Galaxy ever. 200MP camera, built-in S Pen, 12GB RAM, 256GB storage, and titanium frame for ultimate durability.',
     tab: ['bestseller', 'featured'],
   },
   {
-    id: 2, name: 'Apple iPhone 15 Pro Max', brand: 'Apple',
+    id: 2, name: 'Apple iPhone 16 Pro Max', brand: 'Apple',
     category: 'Mobiles', price: 149900, original: 169900, rating: 4.8, reviews: 23800,
-    image: 'https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=400&q=80',
+    image: 'https://www.bbassets.com/media/uploads/p/xxl/40330658_6-apple-iphone-16-pro-max-1tb-desert-titanium.jpg',
     badge: 'hot', tags: ['A17 Pro', 'Titanium', 'USB-C'],
     desc: 'Titanium design with A17 Pro chip, 48MP main camera with 5× telephoto, Action button and USB 3 speeds.',
     tab: ['featured', 'bestseller'],
@@ -31,7 +31,7 @@ const PRODUCTS = [
   {
     id: 3, name: 'OnePlus 12R 5G', brand: 'OnePlus',
     category: 'Mobiles', price: 39999, original: 49999, rating: 4.5, reviews: 8700,
-    image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTryi7KDDHNFTPNNVgwiYrslxJWF9ytweP08WE-71X1OUUfemZlU-pcZ7GiW-0bg6NugDrnZDr9GMZhuOWWRW7G-_lHJcl14lNiq4ZgnX7vJbEuh4VEcBN3Pw',
     badge: null, tags: ['5G', 'Snapdragon 8 Gen 2', '100W Charging'],
     desc: 'Flagship-grade performance at a mid-range price. 6.78" AMOLED, 120Hz, 50MP Sony camera, 5400mAh battery.',
     tab: ['new', 'topdeals'],
@@ -39,7 +39,7 @@ const PRODUCTS = [
   {
     id: 4, name: 'Redmi Note 13 Pro+', brand: 'Xiaomi',
     category: 'Mobiles', price: 26999, original: 34999, rating: 4.4, reviews: 15200,
-    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80',
+    image: 'https://rukminim2.flixcart.com/image/1500/1500/xif0q/mobile/z/l/m/note-13-pro-5g-mzb0g42inin-mzb0g42in-redmi-original-imah4e97g4agtgut.jpeg',
     badge: 'new', tags: ['200MP', '120W HyperCharge', '5G'],
     desc: 'Flagship camera experience at an affordable price. 200MP camera, 120W fast charging, and a stunning curved AMOLED display.',
     tab: ['new', 'flashsale'],
@@ -49,7 +49,7 @@ const PRODUCTS = [
   {
     id: 5, name: 'MacBook Pro 14" M3 Pro', brand: 'Apple',
     category: 'Laptops', price: 199900, original: 229900, rating: 4.9, reviews: 6400,
-    image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTnytenrofUc82GBmbSjdu2hmHoxi6lvfZxdOtPMYSzv2uGbSkwXOo51xGRzKGQoBD7-YZiDSMfgrmgBAnsTLTDj5QPA9Zh',
     badge: 'hot', tags: ['M3 Pro', '18GB RAM', 'Liquid Retina XDR'],
     desc: 'Supercharged by M3 Pro chip. Up to 22 hours battery life, Liquid Retina XDR display, and ProRes video.',
     tab: ['featured', 'bestseller'],
@@ -57,7 +57,7 @@ const PRODUCTS = [
   {
     id: 6, name: 'Dell XPS 15 OLED', brand: 'Dell',
     category: 'Laptops', price: 174990, original: 199990, rating: 4.6, reviews: 3200,
-    image: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQlrbl9PUaCwnPzC8ct5Ft5uIByHFPudBHH3GWCg2GJDCkHL3a-1314aoU3yWba0hbs6hE_5gbYANB3YytHbptlP7XoHMlfVvEZcDEo8GoQ0PZ3_Pa1kUEj6A',
     badge: null, tags: ['Intel i9', 'RTX 4070', '3.5K OLED'],
     desc: 'The ultimate Windows content creation machine. 3.5K OLED display, 32GB RAM, 1TB NVMe SSD.',
     tab: ['featured'],
@@ -65,7 +65,7 @@ const PRODUCTS = [
   {
     id: 7, name: 'ASUS ROG Zephyrus G14', brand: 'ASUS',
     category: 'Laptops', price: 139990, original: 164990, rating: 4.7, reviews: 5100,
-    image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRLPHJ8kL5sMfLxK9W3L_wmpzyP4JHfAda5n6JaK_OAmSev6qb2rYzYaWMHspvA6C4EthFwX9ek_euYJAz1DhDfwDUiTVgvRkid3lqP96hJq_15_kSebpeqhg',
     badge: 'hot', tags: ['Ryzen 9', 'RTX 4060', 'AniMe Matrix'],
     desc: 'Compact gaming powerhouse. AMD Ryzen 9, 32GB DDR5, ROG Nebula OLED display with 120Hz refresh rate.',
     tab: ['featured', 'topdeals'],
@@ -73,7 +73,7 @@ const PRODUCTS = [
   {
     id: 8, name: 'Lenovo ThinkPad X1 Carbon', brand: 'Lenovo',
     category: 'Laptops', price: 154990, original: 185990, rating: 4.5, reviews: 2900,
-    image: 'https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=400&q=80',
+    image: 'https://p1-ofp.static.pub/ShareResource/optimized/pdp/thinkpad/thinkpad-x1-series/len101t0112/thinkpad-x1-2-in-1-gen-10-aura-edition-14-intel-lnl.png',
     badge: null, tags: ['Intel i7', 'Business Grade', 'Lightweight'],
     desc: 'The gold standard for business laptops. Feather-light carbon fibre build, MIL-SPEC tested durability, and 15hr battery.',
     tab: ['bestseller'],
@@ -83,7 +83,7 @@ const PRODUCTS = [
   {
     id: 9, name: 'Apple Watch Ultra 2', brand: 'Apple',
     category: 'SmartWatches', price: 89900, original: 99900, rating: 4.8, reviews: 9800,
-    image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&q=80',
+    image: 'https://s3bg.cashify.in/gpro/uploads/2023/02/13113714/apple-watch-ultra-2-front-1.webp',
     badge: 'hot', tags: ['Titanium', 'Precision GPS', '60hr Battery'],
     desc: 'Built for extreme adventure. Titanium case, Precision GPS, 60-hour battery life, and 100m water resistance.',
     tab: ['featured', 'bestseller'],
@@ -91,15 +91,15 @@ const PRODUCTS = [
   {
     id: 10, name: 'Samsung Galaxy Watch 6 Classic', brand: 'Samsung',
     category: 'SmartWatches', price: 39999, original: 49999, rating: 4.5, reviews: 7200,
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT_jeFNM_NaaynaaGQ3igYi89Qvd6FobwMGe796Ry1jpjvo_zn-zwxDzt4Zn5yoICW7p49XhUt7p9t-QkXczrbzS-i13iLvqMWQt-ZjWgY',
     badge: null, tags: ['Rotating Bezel', 'Health Tracker', 'BioActive Sensor'],
     desc: 'Premium smartwatch with the iconic rotating bezel. Advanced health monitoring including BioActive Sensor.',
     tab: ['new', 'topdeals'],
   },
   {
     id: 11, name: 'Garmin Fenix 7X Solar', brand: 'Garmin',
-    category: 'SmartWatches', price: 79990, original: 95990, rating: 4.7, reviews: 3100,
-    image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&q=80',
+    category: 'SmartWatches', price: 61152, original: 95990, rating: 4.7, reviews: 3100,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSieCgzBFv0wZsTM-0g30A2OIw6VAGm1gJjwNlXy-1g0Hc29lQlBSKrXNWOYYdWcQ6SqE3PJ8IjgS-pqgoVan3hUNdSqAyPUjVSDhIYu1EpWNuskIAZj57P',
     badge: null, tags: ['Solar Charging', 'GPS Multisport', '28-day Battery'],
     desc: 'Ultimate outdoor GPS smartwatch with solar charging technology, multi-sport tracking, and 28-day battery life.',
     tab: ['featured'],
@@ -109,7 +109,7 @@ const PRODUCTS = [
   {
     id: 12, name: 'Sony WF-1000XM5', brand: 'Sony',
     category: 'Earbuds', price: 24990, original: 29990, rating: 4.8, reviews: 18400,
-    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=80',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSl1dBGRjgMeg-JxliCiKK6cK-MwgRKlUafsKtILXfFSqaJ4MDQVktVmO49cOdAtrbrJPtmJMXkQKLtGSw9nnj1pTm0D23eCWVGCAOXZXT5RNSvReY72mJS',
     badge: 'hot', tags: ['ANC', 'LDAC', '8hr Battery'],
     desc: 'Industry-leading noise cancellation in the smallest, lightest WF-1000X series ever. Hi-Res Audio Wireless with LDAC.',
     tab: ['featured', 'bestseller'],
@@ -117,7 +117,7 @@ const PRODUCTS = [
   {
     id: 13, name: 'Apple AirPods Pro 2nd Gen', brand: 'Apple',
     category: 'Earbuds', price: 24900, original: 29900, rating: 4.7, reviews: 31000,
-    image: 'https://images.unsplash.com/photo-1606220838315-056192d5e927?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTMJXCLWId2m2It9x05XPbmIy4EylEuL0qKC39XtGFmy7Vdx20fgHnaN3v3b5obDgHrzsOToIhyLh5f4EKPT0g76MGkVcXCwLBvqRLFqGrkQWVgSotVn4CsnQ',
     badge: null, tags: ['H2 Chip', 'Adaptive Audio', 'USB-C'],
     desc: 'Next-level Active Noise Cancellation, Transparency mode, and Adaptive Audio for seamless listening.',
     tab: ['bestseller'],
@@ -125,7 +125,7 @@ const PRODUCTS = [
   {
     id: 14, name: 'Nothing Ear (2)', brand: 'Nothing',
     category: 'Earbuds', price: 9999, original: 11999, rating: 4.4, reviews: 11200,
-    image: 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfMMEz6I0qF9of561ZoshodfdX9IX9F0LBkALrN7zcP8vD0vd7QNiny9XalEWTTO9H-07mu1rouy0trM9QDNEI2j2UhWi-glSVuS7CEP_9f2W8-g4mDrzP',
     badge: 'new', tags: ['Transparent Design', 'ANC', 'LHDC 5.0'],
     desc: 'Iconic transparent design with Hi-Res LHDC 5.0 audio, dual ANC technology, and 6-mic clear call system.',
     tab: ['new', 'topdeals'],
@@ -149,8 +149,8 @@ const PRODUCTS = [
   // ── KEYBOARDS ──────────────────────────────────────────────
   {
     id: 16, name: 'Keychron Q1 Pro', brand: 'Keychron',
-    category: 'Keyboards', price: 14990, original: 17990, rating: 4.8, reviews: 5600,
-    image: 'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&q=80',
+    category: 'Keyboards', price: 58527, original: 68527, rating: 4.8, reviews: 5600,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzwSS0y7pP8LLZXTcPL7TlwHer5YDY0SkMqLlumE10pJrboG-Ya9PJEEXkXBD7xmeNh3eEuKzQ2EHJMEbYXLlwh0BXmHHehO6rTZaH8DDIyAkvOPn7wCeD',
     badge: 'hot', tags: ['75% Layout', 'QMK/VIA', 'Gasket Mount'],
     desc: 'Premium wireless mechanical keyboard with QMK/VIA support, RGB backlight, and gasket mount for a typing experience like no other.',
     tab: ['featured', 'bestseller'],
@@ -158,7 +158,7 @@ const PRODUCTS = [
   {
     id: 17, name: 'Logitech MX Keys S', brand: 'Logitech',
     category: 'Keyboards', price: 9495, original: 11995, rating: 4.6, reviews: 13200,
-    image: 'https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLzYATnhmwLeCt2hRsTKCL7G3mQmvETfB8K5EAguhbH3o3qEYP7hoqjY8aj1f7wJ0HkMRJ9pEl88XBzrg3T9juGsOjtGVyrQbc97B5Mvkj',
     badge: null, tags: ['Multi-Device', 'Backlit', 'Flow Cross-Computer'],
     desc: 'Smart wireless keyboard for serious work. Connects up to 3 devices, backlit keys, and Logitech Flow for cross-computer typing.',
     tab: ['bestseller', 'topdeals'],
@@ -201,7 +201,7 @@ const PRODUCTS = [
   {
     id: 21, name: 'Nike Air Max 270', brand: 'Nike',
     category: 'Shoes', price: 12495, original: 14995, rating: 4.6, reviews: 28000,
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT9s5GDqkiItI1Ov7rs7gctfgzNSO1bVrw11Vbtm6gas1uHVU0G132HntTt9XQjyztOrQtus-D1r-LoOQgpAXsjcB2KVsQqAncaaqS_L1ImEb0hgPq4Pn7XRQ',
     badge: 'hot', tags: ['Air Unit', 'Breathable', 'Lifestyle'],
     desc: 'The first lifestyle Air Max shoe with a 270-degree Air unit. Designed for all-day comfort and iconic street style.',
     tab: ['featured', 'bestseller'],
@@ -209,7 +209,7 @@ const PRODUCTS = [
   {
     id: 22, name: 'Adidas Ultraboost 23', brand: 'Adidas',
     category: 'Shoes', price: 14999, original: 18000, rating: 4.7, reviews: 18700,
-    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSMfW-bd8A7jo5bGBeTQbWcS50glTTHUNsu987yD-iWfJuFWBeSkegHKGsKmceV8k6vOk5WZYe50NxiejhStjbKG5vrKXMZN69XTLBc8dkw1X-re1nGoxir',
     badge: null, tags: ['BOOST Midsole', 'Primeknit', 'Running'],
     desc: 'Feel the BOOST energy return with every stride. The most responsive running shoe ever, now with Primeknit+ upper.',
     tab: ['featured', 'topdeals'],
@@ -217,7 +217,7 @@ const PRODUCTS = [
   {
     id: 23, name: 'Puma Cali Dream', brand: 'Puma',
     category: 'Shoes', price: 7999, original: 9999, rating: 4.4, reviews: 9300,
-    image: 'https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQMNYHe-aibc4iJ4PV84mKr-D2iw8AvbZKVdDI79U17TM_iRLehllOjndkoC9IfeTJU1MkeP8MOCagAjDXjEg2yPfhdyu6SZE4tgWEQfYZWoYD0WzlaC1OyVA',
     badge: 'new', tags: ['Platform', 'Lifestyle', 'Women\'s'],
     desc: 'Chunky platform sneakers with premium leather upper. Inspired by California\'s surf culture.',
     tab: ['new', 'flashsale'],
@@ -227,7 +227,7 @@ const PRODUCTS = [
   {
     id: 24, name: 'Dyson Airwrap Complete', brand: 'Dyson',
     category: 'Beauty', price: 44900, original: 49900, rating: 4.7, reviews: 12600,
-    image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVETYL9BOpp7I09XxUEQZekdvuB1lOU151ZFqFNons_akvbShQ2b70EgjfxH9oQNW4dp0auFDtm5V8GKvF4X00PU1oXjGrza7qDKNbG3iQ44Y_di-lRq-uHA',
     badge: 'hot', tags: ['Coanda Effect', 'Multi-Styler', 'Frizz Control'],
     desc: 'Styles, waves, curls and dries. Uses Coanda airflow to attract and wrap hair for a professional finish without extreme heat.',
     tab: ['featured', 'bestseller'],
@@ -235,7 +235,7 @@ const PRODUCTS = [
   {
     id: 25, name: 'The Ordinary Skincare Set', brand: 'The Ordinary',
     category: 'Beauty', price: 2499, original: 3499, rating: 4.5, reviews: 34500,
-    image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRLemi_UQyjVc0Mm8CVZK-4rFLWBCjD4RZd5RsC93Nf8-6M9paox-zkuErRbps9lEoi85oeNU0QoHx-GdLHVzIvgAzy6CwzjrfF6Azhc8Fdj4MTMM0RZpZi',
     badge: 'new', tags: ['Niacinamide', 'Retinol', 'Hyaluronic Acid'],
     desc: 'The ultimate starter skincare routine. Includes Niacinamide 10%, Hyaluronic Acid 2%, and 0.2% Retinol serum.',
     tab: ['new', 'topdeals'],
@@ -243,7 +243,7 @@ const PRODUCTS = [
   {
     id: 26, name: 'MAC Studio Fix Powder Plus Foundation', brand: 'MAC',
     category: 'Beauty', price: 3600, original: 4500, rating: 4.4, reviews: 19800,
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTDnds7VnB9nk4XVwQL3AzaKyMOyhFi5F1kpoYz4SOyDRkCfZ8zWlhcdByviWc6apz30SQuniU1hx2LzR4q1Fc4JUXG7M4ntHORHobZ7kib-UTP2krB1hmP',
     badge: null, tags: ['Full Coverage', 'SPF 15', '12hr Wear'],
     desc: 'Full-coverage pressed powder foundation with SPF 15 and 12-hour wear. Matte finish with a natural-looking result.',
     tab: ['flashsale'],
@@ -253,7 +253,7 @@ const PRODUCTS = [
   {
     id: 27, name: 'PlayStation 5 Console', brand: 'Sony',
     category: 'Gaming', price: 54990, original: 59990, rating: 4.9, reviews: 41000,
-    image: 'https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQGDTc9Pndln9jL4DfrJdsj89SLJ2tCNWfeKmYHB_ccKX9PQfgK7ymycE3ZlLa_CZVwfiyLfkn35BPbaxGjZgbjR75onoweqfSKZLnJ_m1dRvlImSxltHV1',
     badge: 'hot', tags: ['4K Gaming', 'DualSense', 'Ray Tracing'],
     desc: 'The ultimate gaming console. Lightning-fast SSD, 4K gaming at 120fps, and DualSense wireless controller with haptic feedback.',
     tab: ['featured', 'bestseller'],
@@ -261,7 +261,7 @@ const PRODUCTS = [
   {
     id: 28, name: 'Xbox Series X', brand: 'Microsoft',
     category: 'Gaming', price: 49990, original: 55990, rating: 4.8, reviews: 28700,
-    image: 'https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSj6PeWU0-1-Hszn1ZOGiRwLY12qCHqBBKS81qyMvR9QM9F_ReE2eaWF-q8wKQlyCOlH-kUbOvhbMFat9wDNR3EXaw0iketTk252_YbJk0xF2iWYCF793DhTA',
     badge: null, tags: ['True 4K', 'Xbox Game Pass', '120fps'],
     desc: 'The world\'s most powerful console. 12 teraflops of power, true 4K gaming, up to 120fps, and Smart Delivery.',
     tab: ['featured', 'topdeals'],
@@ -269,7 +269,7 @@ const PRODUCTS = [
   {
     id: 29, name: 'Razer DeathAdder V3 Pro', brand: 'Razer',
     category: 'Gaming', price: 13999, original: 16999, rating: 4.7, reviews: 9200,
-    image: 'https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&q=80',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSD2jglsqKcxrDaOg1VsZsCPYbEdLxOn9588F8jhG-qRfZUKo2Tnu9nokRU8f9EdRxe4GCVlG_EvJAHn__yWqlMCOLdfM9AUWz9nI5-Q9tdZDmx1lyPVq4h',
     badge: 'new', tags: ['30K DPI', 'Wireless', '90hr Battery'],
     desc: 'The most iconic ergonomic gaming mouse, evolved. Razer Focus Pro 30K optical sensor, 90-hour battery, ultra-lightweight.',
     tab: ['new', 'flashsale'],
@@ -279,7 +279,7 @@ const PRODUCTS = [
   {
     id: 30, name: 'Himalayan Pink Salt 1kg', brand: 'Tata Salt',
     category: 'Grocery', price: 299, original: 399, rating: 4.3, reviews: 54000,
-    image: 'https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRi2VmXIxhX8K69ToyiiXvJN5LTmcD8xCRQiSDU9xThv3_cRGy6M_w_uT-JZnOMJNZyyvOKMs83ocidqTXIiid5SJ-LSdRL87EEn8hIWidOtQDIZ1gebH_M5JQ',
     badge: null, tags: ['Natural', 'Mineral-Rich', '1kg Pack'],
     desc: 'Premium quality Himalayan pink salt rich in 84+ natural minerals. Perfect for cooking and seasoning.',
     tab: ['topdeals'],
@@ -287,7 +287,7 @@ const PRODUCTS = [
   {
     id: 31, name: 'Organic Green Tea Box', brand: 'Tetley',
     category: 'Grocery', price: 349, original: 499, rating: 4.5, reviews: 29300,
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQGhrPuOx5PTqrlGrIelW4RuToDxvXM4OYRLjdlVV10SvtZqNv3arNwr-UaLBfOdxSa_xklhsC2WvVA7oKnCpr2YtO01Kc4Nu2SAHr2cJ2G_jc7TIdT1H0z',
     badge: 'new', tags: ['Organic', '100 Tea Bags', 'Antioxidants'],
     desc: 'Premium organic green tea sourced from the best gardens. Rich in antioxidants with a refreshing, delicate flavour.',
     tab: ['new', 'flashsale'],
@@ -295,7 +295,7 @@ const PRODUCTS = [
   {
     id: 32, name: 'Honey Raw Organic 500g', brand: 'Dabur',
     category: 'Grocery', price: 399, original: 549, rating: 4.6, reviews: 47200,
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_Ci85a6yMC0BSksg87wTq8O7vyezGaKtdiSbdAccSyStV9W1Wer61YvwKNk6T1BnvtZ-fxHEKjxS1xFoaxBdTLRYjjmtFOhYK-Wkr5Kba',
     badge: null, tags: ['Raw', 'Unprocessed', '100% Pure'],
     desc: '100% pure, raw, and unprocessed honey. Sourced directly from Himalayan honeybees. No added sugars or preservatives.',
     tab: ['topdeals'],
