@@ -20,16 +20,170 @@ const PRODUCTS = [
     desc: 'The most powerful Galaxy ever. 200MP camera, built-in S Pen, 12GB RAM, 256GB storage, and titanium frame for ultimate durability.',
     tab: ['bestseller', 'featured'],
   },
+ 
   {
-    id: 2, name: 'Apple iPhone 15 Pro Max', brand: 'Apple',
+    id: 1,
+    name: 'Samsung Galaxy S24 Ultra',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 129999,
+    original: 154999,
+    rating: 4.7,
+    reviews: 12540,
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=80',
+    badge: 'hot',
+    tags: ['5G', '200MP Camera', 'Titanium'],
+    desc: 'The most powerful Galaxy ever. 200MP camera, built-in S Pen, 12GB RAM, 256GB storage, and titanium frame for ultimate durability.',
+    tab: ['bestseller', 'featured'],
+  },
+  {
+    id: 2,
+    name: 'Samsung Galaxy S24+',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 99999,
+    original: 114999,
+    rating: 4.6,
+    reviews: 8320,
+    image: 'https://images.unsplash.com/photo-1707407246039-e59df10ab6b7?w=400&q=80',
+    badge: 'new',
+    tags: ['5G', '50MP Camera', 'AI Features'],
+    desc: 'Galaxy S24+ with 6.7" Dynamic AMOLED 2X display, Snapdragon 8 Gen 3, 12GB RAM, 256GB storage, and 4900mAh battery.',
+    tab: ['featured', 'new-arrivals'],
+  },
+  {
+    id: 3,
+    name: 'Samsung Galaxy S24',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 74999,
+    original: 89999,
+    rating: 4.5,
+    reviews: 9870,
+    image: 'https://images.unsplash.com/photo-1706019745403-f12f0a929ea3?w=400&q=80',
+    badge: 'sale',
+    tags: ['5G', 'Galaxy AI', 'Compact'],
+    desc: 'Compact powerhouse with 6.2" display, Snapdragon 8 Gen 3, 8GB RAM, 128GB storage, and Galaxy AI features.',
+    tab: ['bestseller', 'sale'],
+  },
+  {
+    id: 4,
+    name: 'Samsung Galaxy Z Fold 5',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 154999,
+    original: 174999,
+    rating: 4.6,
+    reviews: 4210,
+    image: 'https://images.unsplash.com/photo-1695048064034-c00f0cbc4c38?w=400&q=80',
+    badge: 'premium',
+    tags: ['5G', 'Foldable', 'S Pen Support'],
+    desc: 'The ultimate foldable with 7.6" inner display, Snapdragon 8 Gen 2, 12GB RAM, 256GB storage. Flex hinge design for seamless multitasking.',
+    tab: ['featured', 'bestseller'],
+  },
+  {
+    id: 5,
+    name: 'Samsung Galaxy Z Flip 5',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 99999,
+    original: 109999,
+    rating: 4.4,
+    reviews: 5630,
+    image: 'https://images.unsplash.com/photo-1692364833032-efe9e3f14cd1?w=400&q=80',
+    badge: 'trending',
+    tags: ['5G', 'Flip Design', '3.4" Cover Screen'],
+    desc: 'Iconic flip design with a massive 3.4" Flex Window cover screen, 6.7" FHD+ AMOLED, Snapdragon 8 Gen 2, and 8GB RAM.',
+    tab: ['trending', 'featured'],
+  },
+  {
+    id: 6,
+    name: 'Samsung Galaxy A54 5G',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 38999,
+    original: 44999,
+    rating: 4.3,
+    reviews: 18740,
+    image: 'https://images.unsplash.com/photo-1580910051074-3eb694886505?w=400&q=80',
+    badge: 'hot',
+    tags: ['5G', '50MP OIS Camera', 'IP67'],
+    desc: 'Best mid-range pick with 6.4" Super AMOLED, Exynos 1380, 8GB RAM, 128GB storage, 5000mAh battery, and IP67 water resistance.',
+    tab: ['bestseller', 'sale'],
+  },
+  {
+    id: 7,
+    name: 'Samsung Galaxy A34 5G',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 30999,
+    original: 36999,
+    rating: 4.2,
+    reviews: 14520,
+    image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&q=80',
+    badge: 'sale',
+    tags: ['5G', '48MP Camera', 'IP67'],
+    desc: 'Feature-packed with 6.6" Super AMOLED, Dimensity 1080, 8GB RAM, 128GB storage, and 5000mAh battery with 25W fast charging.',
+    tab: ['sale', 'trending'],
+  },
+  {
+    id: 8,
+    name: 'Samsung Galaxy M34 5G',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 18999,
+    original: 22999,
+    rating: 4.1,
+    reviews: 22310,
+    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80',
+    badge: 'value',
+    tags: ['5G', '50MP Camera', '6000mAh'],
+    desc: 'Massive 6000mAh battery with 25W fast charging, 6.5" Super AMOLED, Exynos 1280, 8GB RAM, and 128GB storage.',
+    tab: ['bestseller', 'sale'],
+  },
+  {
+    id: 9,
+    name: 'Samsung Galaxy F54 5G',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 27999,
+    original: 32999,
+    rating: 4.2,
+    reviews: 9870,
+    image: 'https://images.unsplash.com/photo-1585060544812-6b45742d762f?w=400&q=80',
+    badge: 'new',
+    tags: ['5G', '108MP Camera', '6000mAh'],
+    desc: 'Camera-first smartphone with 108MP triple rear camera, 6.7" Super AMOLED, Exynos 1380, 8GB RAM, 256GB storage.',
+    tab: ['new-arrivals', 'trending'],
+  },
+  {
+    id: 10,
+    name: 'Samsung Galaxy S23 FE',
+    brand: 'Samsung',
+    category: 'Mobiles',
+    price: 49999,
+    original: 59999,
+    rating: 4.3,
+    reviews: 7640,
+    image: 'https://images.unsplash.com/photo-1618478594486-c65b899c4936?w=400&q=80',
+    badge: 'hot',
+    tags: ['5G', '50MP OIS Camera', 'Fan Edition'],
+    desc: 'Fan Edition flagship with 6.4" Dynamic AMOLED, Snapdragon 8 Gen 1, 8GB RAM, 128GB storage, and 4500mAh with 25W charging.',
+    tab: ['featured', 'bestseller'],
+  },
+
+  {
+    id: 12, name: 'Apple iPhone 15 Pro Max', brand: 'Apple',
     category: 'Mobiles', price: 149900, original: 169900, rating: 4.8, reviews: 23800,
     image: 'https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=400&q=80',
     badge: 'hot', tags: ['A17 Pro', 'Titanium', 'USB-C'],
     desc: 'Titanium design with A17 Pro chip, 48MP main camera with 5× telephoto, Action button and USB 3 speeds.',
     tab: ['featured', 'bestseller'],
   },
+  
+
   {
-    id: 3, name: 'OnePlus 12R 5G', brand: 'OnePlus',
+    id: 13, name: 'OnePlus 12R 5G', brand: 'OnePlus',
     category: 'Mobiles', price: 39999, original: 49999, rating: 4.5, reviews: 8700,
     image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&q=80',
     badge: null, tags: ['5G', 'Snapdragon 8 Gen 2', '100W Charging'],
@@ -37,7 +191,7 @@ const PRODUCTS = [
     tab: ['new', 'topdeals'],
   },
   {
-    id: 4, name: 'Redmi Note 13 Pro+', brand: 'Xiaomi',
+    id: 14, name: 'Redmi Note 13 Pro+', brand: 'Xiaomi',
     category: 'Mobiles', price: 26999, original: 34999, rating: 4.4, reviews: 15200,
     image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80',
     badge: 'new', tags: ['200MP', '120W HyperCharge', '5G'],
@@ -47,7 +201,7 @@ const PRODUCTS = [
 
   // ── LAPTOPS ──────────────────────────────────────────────
   {
-    id: 5, name: 'MacBook Pro 14" M3 Pro', brand: 'Apple',
+    id: 15, name: 'MacBook Pro 14" M3 Pro', brand: 'Apple',
     category: 'Laptops', price: 199900, original: 229900, rating: 4.9, reviews: 6400,
     image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&q=80',
     badge: 'hot', tags: ['M3 Pro', '18GB RAM', 'Liquid Retina XDR'],
@@ -55,7 +209,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 6, name: 'Dell XPS 15 OLED', brand: 'Dell',
+    id: 16, name: 'Dell XPS 15 OLED', brand: 'Dell',
     category: 'Laptops', price: 174990, original: 199990, rating: 4.6, reviews: 3200,
     image: 'https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=400&q=80',
     badge: null, tags: ['Intel i9', 'RTX 4070', '3.5K OLED'],
@@ -63,7 +217,7 @@ const PRODUCTS = [
     tab: ['featured'],
   },
   {
-    id: 7, name: 'ASUS ROG Zephyrus G14', brand: 'ASUS',
+    id: 17, name: 'ASUS ROG Zephyrus G14', brand: 'ASUS',
     category: 'Laptops', price: 139990, original: 164990, rating: 4.7, reviews: 5100,
     image: 'https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&q=80',
     badge: 'hot', tags: ['Ryzen 9', 'RTX 4060', 'AniMe Matrix'],
@@ -71,7 +225,7 @@ const PRODUCTS = [
     tab: ['featured', 'topdeals'],
   },
   {
-    id: 8, name: 'Lenovo ThinkPad X1 Carbon', brand: 'Lenovo',
+    id: 18, name: 'Lenovo ThinkPad X1 Carbon', brand: 'Lenovo',
     category: 'Laptops', price: 154990, original: 185990, rating: 4.5, reviews: 2900,
     image: 'https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=400&q=80',
     badge: null, tags: ['Intel i7', 'Business Grade', 'Lightweight'],
@@ -81,7 +235,7 @@ const PRODUCTS = [
 
   // ── SMART WATCHES ─────────────────────────────────────────
   {
-    id: 9, name: 'Apple Watch Ultra 2', brand: 'Apple',
+    id: 19, name: 'Apple Watch Ultra 2', brand: 'Apple',
     category: 'SmartWatches', price: 89900, original: 99900, rating: 4.8, reviews: 9800,
     image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400&q=80',
     badge: 'hot', tags: ['Titanium', 'Precision GPS', '60hr Battery'],
@@ -89,7 +243,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 10, name: 'Samsung Galaxy Watch 6 Classic', brand: 'Samsung',
+    id: 20, name: 'Samsung Galaxy Watch 6 Classic', brand: 'Samsung',
     category: 'SmartWatches', price: 39999, original: 49999, rating: 4.5, reviews: 7200,
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80',
     badge: null, tags: ['Rotating Bezel', 'Health Tracker', 'BioActive Sensor'],
@@ -97,7 +251,7 @@ const PRODUCTS = [
     tab: ['new', 'topdeals'],
   },
   {
-    id: 11, name: 'Garmin Fenix 7X Solar', brand: 'Garmin',
+    id: 21, name: 'Garmin Fenix 7X Solar', brand: 'Garmin',
     category: 'SmartWatches', price: 79990, original: 95990, rating: 4.7, reviews: 3100,
     image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&q=80',
     badge: null, tags: ['Solar Charging', 'GPS Multisport', '28-day Battery'],
@@ -107,7 +261,7 @@ const PRODUCTS = [
 
   // ── EARBUDS ────────────────────────────────────────────────
   {
-    id: 12, name: 'Sony WF-1000XM5', brand: 'Sony',
+    id: 22, name: 'Sony WF-1000XM5', brand: 'Sony',
     category: 'Earbuds', price: 24990, original: 29990, rating: 4.8, reviews: 18400,
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=80',
     badge: 'hot', tags: ['ANC', 'LDAC', '8hr Battery'],
@@ -115,7 +269,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 13, name: 'Apple AirPods Pro 2nd Gen', brand: 'Apple',
+    id: 23, name: 'Apple AirPods Pro 2nd Gen', brand: 'Apple',
     category: 'Earbuds', price: 24900, original: 29900, rating: 4.7, reviews: 31000,
     image: 'https://images.unsplash.com/photo-1606220838315-056192d5e927?w=400&q=80',
     badge: null, tags: ['H2 Chip', 'Adaptive Audio', 'USB-C'],
@@ -123,7 +277,7 @@ const PRODUCTS = [
     tab: ['bestseller'],
   },
   {
-    id: 14, name: 'Nothing Ear (2)', brand: 'Nothing',
+    id: 24, name: 'Nothing Ear (2)', brand: 'Nothing',
     category: 'Earbuds', price: 9999, original: 11999, rating: 4.4, reviews: 11200,
     image: 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80',
     badge: 'new', tags: ['Transparent Design', 'ANC', 'LHDC 5.0'],
@@ -131,7 +285,7 @@ const PRODUCTS = [
     tab: ['new', 'topdeals'],
   },
   {
-    id: 15, name: 'Bose QuietComfort Earbuds II', brand: 'Bose',
+    id: 25, name: 'Bose QuietComfort Earbuds II', brand: 'Bose',
     category: 'Earbuds', price: 22990, original: 27990, rating: 4.6, reviews: 8900,
     image: 'https://images.unsplash.com/photo-1631176093617-8b5e4f50b6e8?w=400&q=80',
     badge: null, tags: ['CustomTune ANC', '6hr Battery', 'IPX4'],
@@ -141,7 +295,7 @@ const PRODUCTS = [
 
   // ── KEYBOARDS ──────────────────────────────────────────────
   {
-    id: 16, name: 'Keychron Q1 Pro', brand: 'Keychron',
+    id: 26, name: 'Keychron Q1 Pro', brand: 'Keychron',
     category: 'Keyboards', price: 14990, original: 17990, rating: 4.8, reviews: 5600,
     image: 'https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&q=80',
     badge: 'hot', tags: ['75% Layout', 'QMK/VIA', 'Gasket Mount'],
@@ -149,7 +303,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 17, name: 'Logitech MX Keys S', brand: 'Logitech',
+    id: 27, name: 'Logitech MX Keys S', brand: 'Logitech',
     category: 'Keyboards', price: 9495, original: 11995, rating: 4.6, reviews: 13200,
     image: 'https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=400&q=80',
     badge: null, tags: ['Multi-Device', 'Backlit', 'Flow Cross-Computer'],
@@ -157,7 +311,7 @@ const PRODUCTS = [
     tab: ['bestseller', 'topdeals'],
   },
   {
-    id: 18, name: 'Razer BlackWidow V4 Pro', brand: 'Razer',
+    id: 28, name: 'Razer BlackWidow V4 Pro', brand: 'Razer',
     category: 'Keyboards', price: 19999, original: 24999, rating: 4.5, reviews: 7400,
     image: 'https://images.unsplash.com/photo-1547082229-6db7b9cc9e64?w=400&q=80',
     badge: null, tags: ['Razer Yellow Switches', 'HyperSpeed', 'Command Dial'],
@@ -167,7 +321,7 @@ const PRODUCTS = [
 
   // ── FASHION ───────────────────────────────────────────────
   {
-    id: 19, name: 'Premium Oversized Hoodie', brand: 'H&M',
+    id: 29, name: 'Premium Oversized Hoodie', brand: 'H&M',
     category: 'Fashion', price: 1999, original: 3999, rating: 4.3, reviews: 22100,
     image: 'https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=400&q=80',
     badge: 'new', tags: ['Cotton Blend', 'Unisex', 'Multiple Colors'],
@@ -175,7 +329,7 @@ const PRODUCTS = [
     tab: ['new', 'flashsale'],
   },
   {
-    id: 20, name: 'Slim Fit Formal Shirt', brand: 'Van Heusen',
+    id: 30, name: 'Slim Fit Formal Shirt', brand: 'Van Heusen',
     category: 'Fashion', price: 1499, original: 2999, rating: 4.2, reviews: 14500,
     image: 'https://images.unsplash.com/photo-1594938298603-c8148c4b4aed?w=400&q=80',
     badge: null, tags: ['Wrinkle-Free', 'Cotton', 'Office Ready'],
@@ -185,7 +339,7 @@ const PRODUCTS = [
 
   // ── SHOES ─────────────────────────────────────────────────
   {
-    id: 21, name: 'Nike Air Max 270', brand: 'Nike',
+    id: 31, name: 'Nike Air Max 270', brand: 'Nike',
     category: 'Shoes', price: 12495, original: 14995, rating: 4.6, reviews: 28000,
     image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80',
     badge: 'hot', tags: ['Air Unit', 'Breathable', 'Lifestyle'],
@@ -193,7 +347,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 22, name: 'Adidas Ultraboost 23', brand: 'Adidas',
+    id: 32, name: 'Adidas Ultraboost 23', brand: 'Adidas',
     category: 'Shoes', price: 14999, original: 18000, rating: 4.7, reviews: 18700,
     image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&q=80',
     badge: null, tags: ['BOOST Midsole', 'Primeknit', 'Running'],
@@ -201,7 +355,7 @@ const PRODUCTS = [
     tab: ['featured', 'topdeals'],
   },
   {
-    id: 23, name: 'Puma Cali Dream', brand: 'Puma',
+    id: 33, name: 'Puma Cali Dream', brand: 'Puma',
     category: 'Shoes', price: 7999, original: 9999, rating: 4.4, reviews: 9300,
     image: 'https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=400&q=80',
     badge: 'new', tags: ['Platform', 'Lifestyle', 'Women\'s'],
@@ -211,7 +365,7 @@ const PRODUCTS = [
 
   // ── BEAUTY ────────────────────────────────────────────────
   {
-    id: 24, name: 'Dyson Airwrap Complete', brand: 'Dyson',
+    id:34, name: 'Dyson Airwrap Complete', brand: 'Dyson',
     category: 'Beauty', price: 44900, original: 49900, rating: 4.7, reviews: 12600,
     image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=400&q=80',
     badge: 'hot', tags: ['Coanda Effect', 'Multi-Styler', 'Frizz Control'],
@@ -219,7 +373,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 25, name: 'The Ordinary Skincare Set', brand: 'The Ordinary',
+    id: 35, name: 'The Ordinary Skincare Set', brand: 'The Ordinary',
     category: 'Beauty', price: 2499, original: 3499, rating: 4.5, reviews: 34500,
     image: 'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=400&q=80',
     badge: 'new', tags: ['Niacinamide', 'Retinol', 'Hyaluronic Acid'],
@@ -227,7 +381,7 @@ const PRODUCTS = [
     tab: ['new', 'topdeals'],
   },
   {
-    id: 26, name: 'MAC Studio Fix Powder Plus Foundation', brand: 'MAC',
+    id: 36, name: 'MAC Studio Fix Powder Plus Foundation', brand: 'MAC',
     category: 'Beauty', price: 3600, original: 4500, rating: 4.4, reviews: 19800,
     image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400&q=80',
     badge: null, tags: ['Full Coverage', 'SPF 15', '12hr Wear'],
@@ -237,7 +391,7 @@ const PRODUCTS = [
 
   // ── GAMING ────────────────────────────────────────────────
   {
-    id: 27, name: 'PlayStation 5 Console', brand: 'Sony',
+    id: 37, name: 'PlayStation 5 Console', brand: 'Sony',
     category: 'Gaming', price: 54990, original: 59990, rating: 4.9, reviews: 41000,
     image: 'https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&q=80',
     badge: 'hot', tags: ['4K Gaming', 'DualSense', 'Ray Tracing'],
@@ -245,7 +399,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 28, name: 'Xbox Series X', brand: 'Microsoft',
+    id: 38, name: 'Xbox Series X', brand: 'Microsoft',
     category: 'Gaming', price: 49990, original: 55990, rating: 4.8, reviews: 28700,
     image: 'https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&q=80',
     badge: null, tags: ['True 4K', 'Xbox Game Pass', '120fps'],
@@ -253,7 +407,7 @@ const PRODUCTS = [
     tab: ['featured', 'topdeals'],
   },
   {
-    id: 29, name: 'Razer DeathAdder V3 Pro', brand: 'Razer',
+    id: 39, name: 'Razer DeathAdder V3 Pro', brand: 'Razer',
     category: 'Gaming', price: 13999, original: 16999, rating: 4.7, reviews: 9200,
     image: 'https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&q=80',
     badge: 'new', tags: ['30K DPI', 'Wireless', '90hr Battery'],
@@ -263,7 +417,7 @@ const PRODUCTS = [
 
   // ── GROCERY ───────────────────────────────────────────────
   {
-    id: 30, name: 'Himalayan Pink Salt 1kg', brand: 'Tata Salt',
+    id: 40, name: 'Himalayan Pink Salt 1kg', brand: 'Tata Salt',
     category: 'Grocery', price: 299, original: 399, rating: 4.3, reviews: 54000,
     image: 'https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?w=400&q=80',
     badge: null, tags: ['Natural', 'Mineral-Rich', '1kg Pack'],
@@ -271,7 +425,7 @@ const PRODUCTS = [
     tab: ['topdeals'],
   },
   {
-    id: 31, name: 'Organic Green Tea Box', brand: 'Tetley',
+    id: 41, name: 'Organic Green Tea Box', brand: 'Tetley',
     category: 'Grocery', price: 349, original: 499, rating: 4.5, reviews: 29300,
     image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80',
     badge: 'new', tags: ['Organic', '100 Tea Bags', 'Antioxidants'],
@@ -279,7 +433,7 @@ const PRODUCTS = [
     tab: ['new', 'flashsale'],
   },
   {
-    id: 32, name: 'Honey Raw Organic 500g', brand: 'Dabur',
+    id: 42, name: 'Honey Raw Organic 500g', brand: 'Dabur',
     category: 'Grocery', price: 399, original: 549, rating: 4.6, reviews: 47200,
     image: 'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=400&q=80',
     badge: null, tags: ['Raw', 'Unprocessed', '100% Pure'],
