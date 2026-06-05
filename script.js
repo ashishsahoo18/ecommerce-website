@@ -3,7 +3,7 @@
    All interactivity: products, cart, wishlist, filters, slider,
    dark mode, modal, toast, timer, search
    ============================================================ */
-
+console.log("JavaScript Loaded");
 'use strict';
 
 /* ============================================================
@@ -1697,7 +1697,9 @@ function showToast(msg, type = 'info') {
   container.appendChild(toast);
   setTimeout(() => toast.remove(), 2800);
 }
-
+function subscribe() {
+    alert("Button Clicked");
+}
 /* ============================================================
    SCROLL TO TOP
    ============================================================ */
