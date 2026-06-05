@@ -104,6 +104,187 @@ const PRODUCTS = [
     desc: 'Ultimate outdoor GPS smartwatch with solar charging technology, multi-sport tracking, and 28-day battery life.',
     tab: ['featured'],
   },
+  // ── SMARTWATCHES ────────────────────────────────────────────────
+
+{
+    id: 47, name: 'Samsung Galaxy Watch Ultra', brand: 'Samsung',
+    category: 'SmartWatches', price: 59999, original: 69999, rating: 4.7, reviews: 8400,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500',
+    badge: 'hot', tags: ['Titanium', 'Dual GPS', 'Sports Tracking'],
+    desc: 'Premium smartwatch with advanced fitness tracking, dual-frequency GPS and rugged titanium design.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 48, name: 'Garmin Fenix 8', brand: 'Garmin',
+    category: 'SmartWatches', price: 89990, original: 99990, rating: 4.9, reviews: 5200,
+    image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500',
+    badge: 'premium', tags: ['AMOLED', 'Adventure', 'Multi-Sport'],
+    desc: 'Elite GPS smartwatch designed for athletes, adventurers and outdoor enthusiasts.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 49, name: 'OnePlus Watch 3', brand: 'OnePlus',
+    category: 'SmartWatches', price: 24999, original: 29999, rating: 4.6, reviews: 11300,
+    image: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500',
+    badge: 'new', tags: ['AMOLED', 'Health Tracking', 'Long Battery'],
+    desc: 'Stylish smartwatch with premium design, health sensors and extended battery life.',
+    tab: ['new', 'featured'],
+},
+
+{
+    id: 50, name: 'Google Pixel Watch 3', brand: 'Google',
+    category: 'SmartWatches', price: 39999, original: 45999, rating: 4.7, reviews: 6700,
+    image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=500',
+    badge: 'hot', tags: ['Wear OS', 'Fitbit', 'Heart Rate'],
+    desc: 'Google smartwatch with Fitbit integration and advanced wellness tracking.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 51, name: 'Huawei Watch GT 5 Pro', brand: 'Huawei',
+    category: 'SmartWatches', price: 32999, original: 38999, rating: 4.6, reviews: 5900,
+    image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500',
+    badge: 'premium', tags: ['Titanium', 'Golf Mode', '14-Day Battery'],
+    desc: 'Premium smartwatch with elegant design and impressive battery performance.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 52, name: 'Amazfit T-Rex 3', brand: 'Amazfit',
+    category: 'SmartWatches', price: 19999, original: 24999, rating: 4.5, reviews: 7800,
+    image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500',
+    badge: 'trending', tags: ['Military Grade', 'GPS', 'Outdoor'],
+    desc: 'Rugged smartwatch built for extreme conditions and outdoor adventures.',
+    tab: ['trending', 'featured'],
+},
+
+{
+    id: 53, name: 'Fitbit Sense 2', brand: 'Fitbit',
+    category: 'SmartWatches', price: 24999, original: 29999, rating: 4.5, reviews: 9400,
+    image: 'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=500',
+    badge: 'bestseller', tags: ['Stress Tracking', 'ECG', 'Health'],
+    desc: 'Advanced health-focused smartwatch with ECG and stress management tools.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 54, name: 'Noise ColorFit Pro 6', brand: 'Noise',
+    category: 'SmartWatches', price: 4999, original: 6999, rating: 4.4, reviews: 32400,
+    image: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=500',
+    badge: 'sale', tags: ['Bluetooth Calling', 'AMOLED', 'Fitness'],
+    desc: 'Feature-packed smartwatch with vibrant AMOLED display and calling support.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 55, name: 'boAt Lunar Pro LTE', brand: 'boAt',
+    category: 'SmartWatches', price: 8999, original: 11999, rating: 4.3, reviews: 18600,
+    image: 'https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=500',
+    badge: 'new', tags: ['LTE', 'AMOLED', 'Calling'],
+    desc: 'Affordable smartwatch with LTE connectivity and smart calling features.',
+    tab: ['new', 'trending'],
+},
+
+{
+    id: 56, name: 'Fire-Boltt Dream', brand: 'Fire-Boltt',
+    category: 'SmartWatches', price: 5999, original: 7999, rating: 4.2, reviews: 22100,
+    image: 'https://images.unsplash.com/photo-1510017803434-a899398421b3?w=500',
+    badge: 'sale', tags: ['Android Apps', '4G', 'Touchscreen'],
+    desc: 'Smartwatch with app support, calling features and stylish design.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 57, name: 'Fossil Gen 6 Wellness', brand: 'Fossil',
+    category: 'SmartWatches', price: 21999, original: 29999, rating: 4.5, reviews: 6400,
+    image: 'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500',
+    badge: 'premium', tags: ['Wear OS', 'Classic Design', 'Wellness'],
+    desc: 'Elegant smartwatch combining classic aesthetics with smart features.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 58, name: 'Casio G-Shock GBD-H2000', brand: 'Casio',
+    category: 'SmartWatches', price: 34999, original: 39999, rating: 4.7, reviews: 4800,
+    image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?w=500',
+    badge: 'hot', tags: ['G-Shock', 'Solar Charging', 'Rugged'],
+    desc: 'Ultra-durable sports smartwatch with solar charging and GPS tracking.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 59, name: 'Xiaomi Watch 2 Pro', brand: 'Xiaomi',
+    category: 'SmartWatches', price: 19999, original: 24999, rating: 4.4, reviews: 9700,
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500',
+    badge: 'trending', tags: ['Wear OS', 'GPS', 'Fitness'],
+    desc: 'Premium Xiaomi smartwatch featuring Wear OS and advanced tracking.',
+    tab: ['trending', 'featured'],
+},
+
+{
+    id: 60, name: 'Realme Watch S2', brand: 'Realme',
+    category: 'SmartWatches', price: 5999, original: 7999, rating: 4.3, reviews: 15900,
+    image: 'https://images.unsplash.com/photo-1544117519-31a4b719223d?w=500',
+    badge: 'sale', tags: ['Bluetooth Calling', 'Sports Modes', 'AMOLED'],
+    desc: 'Affordable smartwatch packed with health and fitness features.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 61, name: 'Titan Smart Pro', brand: 'Titan',
+    category: 'SmartWatches', price: 12999, original: 15999, rating: 4.4, reviews: 8900,
+    image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500',
+    badge: 'featured', tags: ['Premium Design', 'Health Tracking', 'AMOLED'],
+    desc: 'Stylish smartwatch from Titan with premium finish and smart features.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 62, name: 'Nothing CMF Watch Pro 2', brand: 'CMF',
+    category: 'SmartWatches', price: 4999, original: 6999, rating: 4.5, reviews: 12100,
+    image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500',
+    badge: 'new', tags: ['Minimal Design', 'GPS', 'Calling'],
+    desc: 'Modern smartwatch with clean design and useful smart features.',
+    tab: ['new', 'featured'],
+},
+
+{
+    id: 63, name: 'Suunto Race', brand: 'Suunto',
+    category: 'SmartWatches', price: 44999, original: 49999, rating: 4.8, reviews: 3100,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500',
+    badge: 'premium', tags: ['Athlete', 'GPS', 'Training'],
+    desc: 'Professional sports watch designed for endurance athletes.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 64, name: 'Polar Vantage V3', brand: 'Polar',
+    category: 'SmartWatches', price: 54999, original: 59999, rating: 4.8, reviews: 2700,
+    image: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=500',
+    badge: 'premium', tags: ['Training Load', 'Recovery', 'GPS'],
+    desc: 'Advanced performance watch with detailed training insights.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 65, name: 'Mobvoi TicWatch Pro 5', brand: 'Mobvoi',
+    category: 'SmartWatches', price: 28999, original: 34999, rating: 4.6, reviews: 5100,
+    image: 'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500',
+    badge: 'hot', tags: ['Wear OS', 'Dual Display', 'Long Battery'],
+    desc: 'Powerful Wear OS smartwatch with exceptional battery life.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 66, name: 'Amazfit Balance', brand: 'Amazfit',
+    category: 'SmartWatches', price: 22999, original: 27999, rating: 4.6, reviews: 7400,
+    image: 'https://images.unsplash.com/photo-1510017803434-a899398421b3?w=500',
+    badge: 'featured', tags: ['Wellness', 'GPS', 'AI Coach'],
+    desc: 'Smartwatch focused on balancing fitness, recovery and daily health.',
+    tab: ['featured', 'trending'],
+},
 
   // ── EARBUDS ────────────────────────────────────────────────
   {
@@ -144,6 +325,206 @@ const PRODUCTS = [
     tags: ['CustomTune ANC', '6hr Battery', 'IPX4'],
     desc: 'World\'s best noise cancelling earbuds with CustomTune sound calibration technology.',
     tab: ['featured']
+},
+
+{
+    id: 67, name: 'Apple AirPods Pro 2', brand: 'Apple',
+    category: 'Earbuds', price: 24900, original: 26900, rating: 4.9, reviews: 45200,
+    image: 'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f37?w=500',
+    badge: 'bestseller',
+    tags: ['ANC', 'Spatial Audio', 'USB-C'],
+    desc: 'Premium wireless earbuds with active noise cancellation, adaptive audio and personalized spatial audio.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 68, name: 'Samsung Galaxy Buds3 Pro', brand: 'Samsung',
+    category: 'Earbuds', price: 19999, original: 24999, rating: 4.7, reviews: 17600,
+    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500',
+    badge: 'hot',
+    tags: ['ANC', 'Hi-Fi Audio', '360 Audio'],
+    desc: 'Premium earbuds delivering immersive sound and intelligent noise cancellation.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 69, name: 'Bose QuietComfort Ultra Earbuds', brand: 'Bose',
+    category: 'Earbuds', price: 26999, original: 31999, rating: 4.8, reviews: 9200,
+    image: 'https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?w=500',
+    badge: 'premium',
+    tags: ['ANC', 'Immersive Audio', 'Premium'],
+    desc: 'World-class noise cancellation paired with rich and detailed sound.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 70, name: 'Sennheiser Momentum True Wireless 4', brand: 'Sennheiser',
+    category: 'Earbuds', price: 24990, original: 29990, rating: 4.8, reviews: 7800,
+    image: 'https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=500',
+    badge: 'premium',
+    tags: ['Hi-Fi', 'ANC', 'Audiophile'],
+    desc: 'Exceptional audio quality with adaptive ANC and premium craftsmanship.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 71, name: 'Nothing Ear (2024)', brand: 'Nothing',
+    category: 'Earbuds', price: 11999, original: 14999, rating: 4.6, reviews: 22400,
+    image: 'https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500',
+    badge: 'new',
+    tags: ['ANC', 'Transparent Design', 'LDAC'],
+    desc: 'Stylish transparent earbuds with premium sound and advanced ANC.',
+    tab: ['new', 'featured'],
+},
+
+{
+    id: 72, name: 'OnePlus Buds Pro 3', brand: 'OnePlus',
+    category: 'Earbuds', price: 11999, original: 13999, rating: 4.7, reviews: 19100,
+    image: 'https://images.unsplash.com/photo-1606741965326-cb990ae01bb2?w=500',
+    badge: 'hot',
+    tags: ['LHDC', 'ANC', 'Fast Charging'],
+    desc: 'Flagship earbuds with rich bass, adaptive ANC and ultra-fast charging.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 73, name: 'Google Pixel Buds Pro 2', brand: 'Google',
+    category: 'Earbuds', price: 18999, original: 22999, rating: 4.7, reviews: 8700,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQbzG1BV_J9H6v7xWBKGaNE5gOcoYyOE4mQxnYJWYC1evXJnrf_DoRcuAFEE3_x-kuNIPrciYvB27WQ_bFu8ZCJf-Vslr3z1vQgGOM_N1QBH6fc5jgTNNocCvzU0VIpPw&usqp=CAc',
+    badge: 'featured',
+    tags: ['ANC', 'Google Assistant', 'Multipoint'],
+    desc: 'Smart earbuds optimized for Android with premium sound quality.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 74, name: 'Jabra Elite 10', brand: 'Jabra',
+    category: 'Earbuds', price: 17999, original: 21999, rating: 4.6, reviews: 6100,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSMaRpNgez3FykYKl4pLHV6t7asTZ1O0dKuEdTUWJJFP6U5KvpbBSqJCPnWFBcznxSpFhsTtaw-f5okk71C0KbovJf1SGsKattiXa4wjoB8YuNNVKi1Ph_e6fZZmP-65MhHXWOLrhFS&usqp=CAc',
+    badge: 'premium',
+    tags: ['Dolby Atmos', 'ANC', 'Comfort Fit'],
+    desc: 'Comfortable premium earbuds designed for music, calls and entertainment.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 75, name: 'JBL Live Beam 3', brand: 'JBL',
+    category: 'Earbuds', price: 14999, original: 17999, rating: 4.5, reviews: 8900,
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfLtc-hVDBr-MDyeZcdQZamLkum2XIiCdzDyk5ATmMy4JH-9TngsR8JdCqPApnUXapIE0mvzKYSb1nulNact7Sl1IxVaiDCP8PC5b9GO70ujAm8srhU82PijC7MMNk&usqp=CAc',
+    badge: 'trending',
+    tags: ['JBL Signature', 'ANC', 'Smart Case'],
+    desc: 'Powerful sound with adaptive noise cancelling and a smart charging case.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 76, name: 'Realme Buds Air 6 Pro', brand: 'Realme',
+    category: 'Earbuds', price: 4999, original: 6999, rating: 4.5, reviews: 31500,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfG1FE8znj6OBqEVxhQic5NZ4f7jV5SD59-eX3PKG90fG9pRSqsOvBEP9ptVBUYaQw-gGeAgU78bziBdburWrNqhLs_tdDoS9SyL1NMz0UtJRYps8fJZw0YLYZ8yxDXHBJa0o5zg&usqp=CAc',
+    badge: 'sale',
+    tags: ['50dB ANC', 'LDAC', 'Hi-Res Audio'],
+    desc: 'Feature-rich earbuds offering excellent value and premium audio quality.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 77, name: 'boAt Nirvana Ion ANC', brand: 'boAt',
+    category: 'Earbuds', price: 2999, original: 4999, rating: 4.3, reviews: 44100,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSVIfbUymcV0Nibks2HE9tVXQANSlUERTlrsNWORCWuQb4kOnJr0-iXYv1Fn8HTLQ9mLFmy1CGRjWgyK2_4GQCi5UrvThbYdun0C9Z_woLZ-LR7Wzf6MVwb0oLNP5_J-L3U5Nnp7Q&usqp=CAc',
+    badge: 'bestseller',
+    tags: ['ANC', '120hr Battery', 'Gaming'],
+    desc: 'Long battery life earbuds with active noise cancellation and gaming mode.',
+    tab: ['bestseller', 'sale'],
+},
+
+{
+    id: 78, name: 'Noise Buds X Prime', brand: 'Noise',
+    category: 'Earbuds', price: 2499, original: 3999, rating: 4.2, reviews: 27300,
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYcBgRPONqmLq7Y7d6MUBxlWkLEb-voRkTbgl0hkLTm-s_QDK3nwsBPXhsao55U3LkB_6Q0zxNN_ZJ5oS5VYKgSN5R4u26LXhN2r6yTuDB3ejnAdkopuitm73RJQ&usqp=CAc',
+    badge: 'sale',
+    tags: ['ENC', 'Gaming Mode', 'Bluetooth 5.3'],
+    desc: 'Affordable earbuds designed for daily music, calls and gaming.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 79, name: 'Oppo Enco X3', brand: 'Oppo',
+    category: 'Earbuds', price: 10999, original: 13999, rating: 4.6, reviews: 9700,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCFedBTMALx3pL_9nGzT2VHjBgWMgQo9-0Q&s',
+    badge: 'hot',
+    tags: ['ANC', 'Hi-Fi Audio', 'Dual Drivers'],
+    desc: 'Premium wireless earbuds tuned for detailed and immersive sound.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 80, name: 'Huawei FreeBuds Pro 3', brand: 'Huawei',
+    category: 'Earbuds', price: 16999, original: 19999, rating: 4.7, reviews: 5800,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTLh6x_CmY5TchJRJLwRwaa2m7pxluaIDNmPHVfntf2yq23cYmWI1OGUg0QAu_QSkGJ5eLQXRoMBom5zeQJ6G0u185s4vqhLBJ4jjeDX9Gu7ub9pYBkEEKNzbXWOmVPPmGIfpuQwQ&usqp=CAc',
+    badge: 'premium',
+    tags: ['ANC', 'Dual Drivers', 'Hi-Res'],
+    desc: 'Elegant earbuds delivering premium sound and intelligent ANC.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 81, name: 'Anker Soundcore Liberty 4 NC', brand: 'Soundcore',
+    category: 'Earbuds', price: 8999, original: 11999, rating: 4.7, reviews: 12600,
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNycLOIPaZL1lC2_1yAOjfjiiYbfxHef7benZvYwihcqm6s1e1btAniEbMBad0Oo-rMFYk4AGI24vDuoqm1dCPk5ozuKy_gETdyOnqOZHYAAbh55uvOjTDedzOVfY-sKd9rXU-LQ&usqp=CAc',
+    badge: 'featured',
+    tags: ['ANC', '50hr Battery', 'LDAC'],
+    desc: 'Excellent value earbuds with strong ANC and extended battery life.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 82, name: 'Sony LinkBuds S', brand: 'Sony',
+    category: 'Earbuds', price: 14990, original: 18990, rating: 4.6, reviews: 11200,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSSmSXSUTge_QcbqfdeLiDLI3pYFatCUPnBluus1OlQ-Lxv0r3A23KPEkzaVlbWDUZYNQvPPXSIwwdQt-pYuTTzsSX34xYooCns5wtJFUYSVo75K45CPbBEkA_HOzcoAJCP5IbbJAIMXPI&usqp=CAc',
+    badge: 'trending',
+    tags: ['ANC', 'Lightweight', 'LDAC'],
+    desc: 'Compact and lightweight earbuds with premium Sony audio technology.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 83, name: 'CMF Buds Pro 2', brand: 'CMF',
+    category: 'Earbuds', price: 4299, original: 5999, rating: 4.4, reviews: 16400,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgggb0zIfE2Iz7DCHixSEQBxwHL26c00ZB7Q&s',
+    badge: 'new',
+    tags: ['ANC', 'Bass Boost', 'Fast Pair'],
+    desc: 'Affordable earbuds offering powerful bass and modern design.',
+    tab: ['new', 'featured'],
+},
+
+{
+    id: 84, name: 'Skullcandy Rail ANC', brand: 'Skullcandy',
+    category: 'Earbuds', price: 7999, original: 9999, rating: 4.3, reviews: 7200,
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOuK5qPm3j1qMcKbJ5mmPZMi_o1JEK_KmMhHDeeQPaPImw_8-s5nwQHKsxW1CfaooZt6EUzhnbSJrTGmO5cH9NXbg-53DxedQQE862bUO1T_JPx2Q2Iyj57w&usqp=CAc',
+    badge: 'featured',
+    tags: ['ANC', 'Multipoint', 'IP55'],
+    desc: 'Feature-packed earbuds designed for music lovers and active users.',
+    tab: ['featured', 'sale'],
+},
+
+{
+    id: 85, name: 'Beats Studio Buds+', brand: 'Beats',
+    category: 'Earbuds', price: 16999, original: 19999, rating: 4.7, reviews: 13800,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSmeaeTCDBkk-wopGXdUXc2YurOIpHy25Fha8rifXcidSHGBTccEwBFGThOVyjY32GOOADJJmrHGLagCEZCdFgdcSx_m9mLyBfmzvALYNkRs-Q4dM1td26EAWI0bvll7zqVatumsw&usqp=CAc',
+    badge: 'hot',
+    tags: ['ANC', 'Transparency Mode', 'Apple Compatible'],
+    desc: 'Stylish earbuds with powerful sound and seamless Apple integration.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 86, name: 'Xiaomi Buds 5 Pro', brand: 'Xiaomi',
+    category: 'Earbuds', price: 9999, original: 12999, rating: 4.5, reviews: 10300,
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTpKfckJfAvB5wLMAJi0aeDTYV_nXc9H2FMu88R7-GiOkBRNuglff6IVdIIIOGyZ_gktiPmfOPoR-WC_wEO7DEbhntaABY8dT7wftzBkJ0jM6bUGyih2yqOo3Iwria0wCE3pX5h3Q&usqp=CAc',
+    badge: 'trending',
+    tags: ['ANC', 'Hi-Res Audio', 'Dual Drivers'],
+    desc: 'Premium Xiaomi earbuds featuring advanced audio tuning and ANC.',
+    tab: ['trending', 'featured'],
 },
 
   // ── KEYBOARDS ──────────────────────────────────────────────
@@ -196,6 +577,149 @@ const PRODUCTS = [
     desc: 'Professional slim-fit formal shirt with wrinkle-resistant fabric. Office-ready in classic and contemporary colours.',
     tab: ['topdeals', 'flashsale'],
   },
+  {
+    id: 20,
+    name: 'Classic Slim Fit Denim Jeans',
+    brand: 'Levi\'s',
+    category: 'Fashion',
+    price: 2499,
+    original: 4499,
+    rating: 4.5,
+    reviews: 18500,
+    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=500',
+    badge: 'bestseller',
+    tags: ['Stretch Denim', 'Slim Fit', 'Blue Wash'],
+    desc: 'Premium stretch denim jeans with a modern slim fit. Comfortable for all-day wear.',
+    tab: ['bestseller', 'trending'],
+},
+
+{
+    id: 21,
+    name: 'Men\'s Casual Checked Shirt',
+    brand: 'Roadster',
+    category: 'Fashion',
+    price: 1199,
+    original: 2499,
+    rating: 4.2,
+    reviews: 15600,
+    image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500',
+    badge: 'sale',
+    tags: ['Cotton', 'Regular Fit', 'Checked'],
+    desc: 'Comfortable cotton checked shirt suitable for casual and office wear.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 22,
+    name: 'Women\'s Floral Maxi Dress',
+    brand: 'Zara',
+    category: 'Fashion',
+    price: 2799,
+    original: 4999,
+    rating: 4.7,
+    reviews: 12800,
+    image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=500',
+    badge: 'hot',
+    tags: ['Floral Print', 'Summer Wear', 'Elegant'],
+    desc: 'Beautiful floral maxi dress crafted for comfort and style.',
+    tab: ['hot', 'trending'],
+},
+
+{
+    id: 23,
+    name: 'Premium Leather Jacket',
+    brand: 'Jack & Jones',
+    category: 'Fashion',
+    price: 4999,
+    original: 8999,
+    rating: 4.8,
+    reviews: 9200,
+    image: 'https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?w=500',
+    badge: 'premium',
+    tags: ['Leather', 'Winter Wear', 'Stylish'],
+    desc: 'Premium-quality leather jacket designed for a bold and modern look.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 24,
+    name: 'Athletic Jogger Pants',
+    brand: 'Puma',
+    category: 'Fashion',
+    price: 1499,
+    original: 2999,
+    rating: 4.4,
+    reviews: 17400,
+    image: 'https://hyvesports.com/cdn/shop/files/04.BD0A6256.jpg?v=1773306238&width=1000',
+    badge: 'sale',
+    tags: ['Sportswear', 'Lightweight', 'Comfort Fit'],
+    desc: 'Breathable athletic joggers perfect for workouts and daily wear.',
+    tab: ['sale', 'sports'],
+},
+
+{
+    id: 25,
+    name: 'Women\'s High-Waist Jeans',
+    brand: 'ONLY',
+    category: 'Fashion',
+    price: 2299,
+    original: 3999,
+    rating: 4.6,
+    reviews: 14200,
+    image: 'https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=500',
+    badge: 'trending',
+    tags: ['High Waist', 'Skinny Fit', 'Blue'],
+    desc: 'Fashionable high-waist jeans with a flattering skinny fit.',
+    tab: ['trending', 'new'],
+},
+
+{
+    id: 26,
+    name: 'Premium Graphic T-Shirt',
+    brand: 'H&M',
+    category: 'Fashion',
+    price: 999,
+    original: 1999,
+    rating: 4.3,
+    reviews: 31200,
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500',
+    badge: 'new',
+    tags: ['Graphic Print', 'Oversized', 'Streetwear'],
+    desc: 'Trendy oversized graphic tee inspired by modern street fashion.',
+    tab: ['new', 'flashsale'],
+},
+
+{
+    id: 27,
+    name: 'Formal Business Suit',
+    brand: 'Louis Philippe',
+    category: 'Fashion',
+    price: 6999,
+    original: 11999,
+    rating: 4.8,
+    reviews: 6800,
+    image: 'https://tumuh.in/cdn/shop/products/966153715_01.jpg?v=1598097176&width=1080',
+    badge: 'premium',
+    tags: ['Formal', 'Business', 'Luxury'],
+    desc: 'Elegant business suit crafted with premium fabric and tailoring.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 28,
+    name: 'Women\'s Cotton Kurti',
+    brand: 'Biba',
+    category: 'Fashion',
+    price: 1399,
+    original: 2699,
+    rating: 4.5,
+    reviews: 19100,
+    image: 'https://images.unsplash.com/photo-1617137968427-85924c800a22?w=500',
+    badge: 'bestseller',
+    tags: ['Ethnic Wear', 'Cotton', 'Comfort Fit'],
+    desc: 'Stylish and comfortable cotton kurti for everyday wear.',
+    tab: ['bestseller', 'ethnic'],
+},
 
   // ── SHOES ─────────────────────────────────────────────────
   {
@@ -206,6 +730,145 @@ const PRODUCTS = [
     desc: 'The first lifestyle Air Max shoe with a 270-degree Air unit. Designed for all-day comfort and iconic street style.',
     tab: ['featured', 'bestseller'],
   },
+  {
+    id: 23, name: 'Puma RS-X Reinvention', brand: 'Puma',
+    category: 'Shoes', price: 8999, original: 11999, rating: 4.5, reviews: 18900,
+    image: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500',
+    badge: 'hot',
+    tags: ['Chunky Sole', 'Streetwear', 'Comfort'],
+    desc: 'Bold retro-inspired sneakers with excellent comfort and standout styling.',
+    tab: ['trending', 'featured'],
+},
+
+{
+    id: 24, name: 'Nike Revolution 7', brand: 'Nike',
+    category: 'Shoes', price: 4995, original: 6995, rating: 4.4, reviews: 21500,
+    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500',
+    badge: 'sale',
+    tags: ['Running', 'Lightweight', 'Daily Wear'],
+    desc: 'Lightweight running shoes designed for everyday comfort and performance.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 25, name: 'Adidas Forum Low', brand: 'Adidas',
+    category: 'Shoes', price: 9999, original: 12999, rating: 4.6, reviews: 14200,
+    image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500',
+    badge: 'new',
+    tags: ['Basketball', 'Classic', 'Leather'],
+    desc: 'Classic basketball-inspired sneakers with premium leather construction.',
+    tab: ['new', 'trending'],
+},
+
+{
+    id: 26, name: 'New Balance 574', brand: 'New Balance',
+    category: 'Shoes', price: 8999, original: 10999, rating: 4.8, reviews: 17300,
+    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500',
+    badge: 'premium',
+    tags: ['Suede', 'Lifestyle', 'Classic'],
+    desc: 'Timeless sneaker combining comfort, durability, and iconic styling.',
+    tab: ['premium', 'bestseller'],
+},
+
+{
+    id: 27, name: 'Asics Gel-Kayano 30', brand: 'Asics',
+    category: 'Shoes', price: 15999, original: 18999, rating: 4.9, reviews: 9800,
+    image: 'https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=500',
+    badge: 'premium',
+    tags: ['Stability', 'Running', 'Gel Cushioning'],
+    desc: 'Premium running shoes offering advanced stability and cushioning.',
+    tab: ['premium', 'featured'],
+},
+
+{
+    id: 28, name: 'Reebok Club C 85', brand: 'Reebok',
+    category: 'Shoes', price: 6999, original: 8999, rating: 4.5, reviews: 12700,
+    image: 'https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?w=500',
+    badge: 'trending',
+    tags: ['Retro', 'Leather', 'Lifestyle'],
+    desc: 'Clean and minimalist retro sneakers perfect for everyday outfits.',
+    tab: ['trending', 'featured'],
+},
+
+{
+    id: 29, name: 'Converse Chuck Taylor High', brand: 'Converse',
+    category: 'Shoes', price: 5499, original: 6999, rating: 4.7, reviews: 35100,
+    image: 'https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500',
+    badge: 'iconic',
+    tags: ['Canvas', 'High Top', 'Classic'],
+    desc: 'The legendary high-top sneaker that never goes out of style.',
+    tab: ['bestseller', 'featured'],
+},
+
+{
+    id: 30, name: 'Vans Old Skool', brand: 'Vans',
+    category: 'Shoes', price: 6499, original: 7999, rating: 4.6, reviews: 22600,
+    image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500',
+    badge: 'hot',
+    tags: ['Skateboarding', 'Streetwear', 'Canvas'],
+    desc: 'Iconic skate shoe featuring the signature Vans side stripe.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 31, name: 'Skechers Go Walk 7', brand: 'Skechers',
+    category: 'Shoes', price: 5999, original: 7999, rating: 4.5, reviews: 19400,
+    image: 'https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500',
+    badge: 'comfort',
+    tags: ['Walking', 'Lightweight', 'Slip-On'],
+    desc: 'Ultra-comfortable walking shoes with responsive cushioning.',
+    tab: ['featured', 'sale'],
+},
+
+{
+    id: 32, name: 'Under Armour Charged Assert 10', brand: 'Under Armour',
+    category: 'Shoes', price: 7499, original: 9999, rating: 4.4, reviews: 12100,
+    image: 'https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=500',
+    badge: 'new',
+    tags: ['Running', 'Charged Cushioning', 'Breathable'],
+    desc: 'Versatile running shoes with durable support and comfort.',
+    tab: ['new', 'featured'],
+},
+
+{
+    id: 33, name: 'Nike Dunk Low Retro', brand: 'Nike',
+    category: 'Shoes', price: 9695, original: 11995, rating: 4.8, reviews: 29500,
+    image: 'https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500',
+    badge: 'bestseller',
+    tags: ['Basketball', 'Retro', 'Leather'],
+    desc: 'Classic basketball silhouette loved by sneaker enthusiasts worldwide.',
+    tab: ['bestseller', 'trending'],
+},
+
+{
+    id: 34, name: 'Adidas NMD_R1', brand: 'Adidas',
+    category: 'Shoes', price: 11999, original: 14999, rating: 4.6, reviews: 16300,
+    image: 'https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?w=500',
+    badge: 'featured',
+    tags: ['Boost', 'Lifestyle', 'Urban'],
+    desc: 'Modern streetwear sneakers with responsive cushioning and sleek styling.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 35, name: 'Puma Future Rider', brand: 'Puma',
+    category: 'Shoes', price: 6999, original: 8999, rating: 4.3, reviews: 10800,
+    image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500',
+    badge: 'sale',
+    tags: ['Retro', 'Comfort', 'Casual'],
+    desc: 'Retro-inspired sneakers built for comfort and everyday style.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 36, name: 'New Balance Fresh Foam X', brand: 'New Balance',
+    category: 'Shoes', price: 12999, original: 15999, rating: 4.8, reviews: 8800,
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500',
+    badge: 'premium',
+    tags: ['Fresh Foam', 'Running', 'Premium'],
+    desc: 'Advanced running shoes engineered for maximum cushioning and support.',
+    tab: ['premium', 'featured'],
+},
   {
     id: 22, name: 'Adidas Ultraboost 23', brand: 'Adidas',
     category: 'Shoes', price: 14999, original: 18000, rating: 4.7, reviews: 18700,
@@ -232,6 +895,116 @@ const PRODUCTS = [
     desc: 'Styles, waves, curls and dries. Uses Coanda airflow to attract and wrap hair for a professional finish without extreme heat.',
     tab: ['featured', 'bestseller'],
   },
+
+{
+    id: 37, name: 'Philips Multigroom Series 7000', brand: 'Philips',
+    category: 'Beauty',
+    price: 4499, original: 5999, rating: 4.6, reviews: 28400,
+    image: 'https://images.unsplash.com/photo-1621607512022-6aecc4fed814?w=500',
+    badge: 'bestseller',
+    tags: ['Beard Trimmer', '13-in-1', 'Waterproof'],
+    desc: 'All-in-one grooming kit for beard, hair, body and facial styling with self-sharpening blades.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 38, name: 'The Man Company Charcoal Grooming Kit', brand: 'The Man Company',
+    category: 'Beauty',
+    price: 1299, original: 1999, rating: 4.4, reviews: 17800,
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTgBNi_Ql5D3JBXNKzZTjct7eKV8OFJKZlMRAOk2hoyhae9E2DPNi658mxBRQF_cc-xuotFzcsQ-r93Do_9RvfeHbDm4kvX59tCR7alF35gaJOdlFdHb6epWxXWbZafr2Bbiq_GBA&usqp=CAc',
+    badge: 'hot',
+    tags: ['Face Care', 'Charcoal', 'Men'],
+    desc: 'Complete grooming kit including face wash, scrub and moisturizer for everyday skincare.',
+    tab: ['sale', 'featured'],
+},
+
+{
+    id: 39, name: 'Beardo Hair Wax Strong Hold', brand: 'Beardo',
+    category: 'Beauty',
+    price: 349, original: 599, rating: 4.3, reviews: 22100,
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500',
+    badge: 'sale',
+    tags: ['Hair Styling', 'Strong Hold', 'Matte Finish'],
+    desc: 'Provides long-lasting hold with a natural matte finish for modern hairstyles.',
+    tab: ['sale', 'trending'],
+},
+
+{
+    id: 40, name: 'Minimalist Vitamin C Serum', brand: 'Minimalist',
+    category: 'Beauty',
+    price: 699, original: 999, rating: 4.5, reviews: 34200,
+    image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500',
+    badge: 'bestseller',
+    tags: ['Vitamin C', 'Skin Brightening', 'Unisex'],
+    desc: 'Powerful antioxidant serum that helps brighten skin and reduce dullness.',
+    tab: ['featured', 'bestseller'],
+},
+
+{
+    id: 41, name: 'Cetaphil Gentle Skin Cleanser', brand: 'Cetaphil',
+    category: 'Beauty',
+    price:199, original: 333, rating: 4.8, reviews: 45600,
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQgFRlitbA0j4JRZs3FFkqz_NKFaPj27S5c2wsgqAv4kRLUJ7Pozh-q5x1DbrYWxmNLSvMtY7avaQrSEj6_zv2eheUhudPJYBgjjGRv_skQhhnhGnBBdCOcPGkuv4Ku2AkLf1uZnZE&usqp=CAc',
+    badge: 'premium',
+    tags: ['Sensitive Skin', 'Hydrating', 'Unisex'],
+    desc: 'Gentle daily cleanser suitable for all skin types, including sensitive skin.',
+    tab: ['featured', 'premium'],
+},
+
+{
+    id: 42, name: 'Mamaearth Ubtan Face Wash', brand: 'Mamaearth',
+    category: 'Beauty',
+    price: 299, original: 399, rating: 4.4, reviews: 38900,
+    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500',
+    badge: 'trending',
+    tags: ['Natural Ingredients', 'Tan Removal', 'Unisex'],
+    desc: 'Traditional ubtan formulation that helps cleanse and brighten the skin.',
+    tab: ['trending', 'featured'],
+},
+
+{
+    id: 43, name: 'Lakmé Absolute Matte Lipstick', brand: 'Lakmé',
+    category: 'Beauty',
+    price: 749, original: 999, rating: 4.6, reviews: 26700,
+    image: 'https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=500',
+    badge: 'hot',
+    tags: ['Matte Finish', 'Long Lasting', 'Makeup'],
+    desc: 'Rich matte lipstick with intense colour payoff and comfortable wear.',
+    tab: ['featured', 'trending'],
+},
+
+{
+    id: 44, name: 'Maybelline Fit Me Foundation', brand: 'Maybelline',
+    category: 'Beauty',
+    price: 599, original: 799, rating: 4.7, reviews: 41300,
+    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500',
+    badge: 'bestseller',
+    tags: ['Foundation', 'Natural Finish', 'Makeup'],
+    desc: 'Lightweight foundation that blends seamlessly for a natural skin-like finish.',
+    tab: ['bestseller', 'featured'],
+},
+
+{
+    id: 45, name: 'L\'Oréal Paris Extraordinary Oil Serum', brand: 'L\'Oréal Paris',
+    category: 'Beauty',
+    price: 549, original: 799, rating: 4.6, reviews: 29500,
+    image: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=500',
+    badge: 'hot',
+    tags: ['Hair Serum', 'Smooth Hair', 'Frizz Control'],
+    desc: 'Nourishing hair serum that adds shine and controls frizz instantly.',
+    tab: ['featured', 'sale'],
+},
+
+{
+    id: 46, name: 'Dyson Supersonic Hair Dryer', brand: 'Dyson',
+    category: 'Beauty',
+    price: 36900, original: 41900, rating: 4.8, reviews: 11800,
+    image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?w=500',
+    badge: 'premium',
+    tags: ['Fast Drying', 'Hair Care', 'Premium'],
+    desc: 'High-performance hair dryer engineered for fast drying and heat protection.',
+    tab: ['premium', 'featured'],
+},
   {
     id: 25, name: 'The Ordinary Skincare Set', brand: 'The Ordinary',
     category: 'Beauty', price: 2499, original: 3499, rating: 4.5, reviews: 34500,
