@@ -107,7 +107,7 @@ const PRODUCTS = [
   // ── SMARTWATCHES ────────────────────────────────────────────────
 
 {
-    id: 47, name: 'Samsung Galaxy Watch Ultra', brand: 'Samsung',
+    id: 12, name: 'Samsung Galaxy Watch Ultra', brand: 'Samsung',
     category: 'SmartWatches', price: 59999, original: 69999, rating: 4.7, reviews: 8400,
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500',
     badge: 'hot', tags: ['Titanium', 'Dual GPS', 'Sports Tracking'],
@@ -116,7 +116,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 48, name: 'Garmin Fenix 8', brand: 'Garmin',
+    id: 13, name: 'Garmin Fenix 8', brand: 'Garmin',
     category: 'SmartWatches', price: 89990, original: 99990, rating: 4.9, reviews: 5200,
     image: 'https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500',
     badge: 'premium', tags: ['AMOLED', 'Adventure', 'Multi-Sport'],
@@ -125,7 +125,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 49, name: 'OnePlus Watch 3', brand: 'OnePlus',
+    id: 14, name: 'OnePlus Watch 3', brand: 'OnePlus',
     category: 'SmartWatches', price: 24999, original: 29999, rating: 4.6, reviews: 11300,
     image: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500',
     badge: 'new', tags: ['AMOLED', 'Health Tracking', 'Long Battery'],
@@ -134,7 +134,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 50, name: 'Google Pixel Watch 3', brand: 'Google',
+    id: 15, name: 'Google Pixel Watch 3', brand: 'Google',
     category: 'SmartWatches', price: 39999, original: 45999, rating: 4.7, reviews: 6700,
     image: 'https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=500',
     badge: 'hot', tags: ['Wear OS', 'Fitbit', 'Heart Rate'],
@@ -143,7 +143,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 51, name: 'Huawei Watch GT 5 Pro', brand: 'Huawei',
+    id: 16, name: 'Huawei Watch GT 5 Pro', brand: 'Huawei',
     category: 'SmartWatches', price: 32999, original: 38999, rating: 4.6, reviews: 5900,
     image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500',
     badge: 'premium', tags: ['Titanium', 'Golf Mode', '14-Day Battery'],
@@ -152,7 +152,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 52, name: 'Amazfit T-Rex 3', brand: 'Amazfit',
+    id: 17, name: 'Amazfit T-Rex 3', brand: 'Amazfit',
     category: 'SmartWatches', price: 19999, original: 24999, rating: 4.5, reviews: 7800,
     image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500',
     badge: 'trending', tags: ['Military Grade', 'GPS', 'Outdoor'],
@@ -161,7 +161,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 53, name: 'Fitbit Sense 2', brand: 'Fitbit',
+    id: 18, name: 'Fitbit Sense 2', brand: 'Fitbit',
     category: 'SmartWatches', price: 24999, original: 29999, rating: 4.5, reviews: 9400,
     image: 'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=500',
     badge: 'bestseller', tags: ['Stress Tracking', 'ECG', 'Health'],
@@ -170,7 +170,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 54, name: 'Noise ColorFit Pro 6', brand: 'Noise',
+    id: 19, name: 'Noise ColorFit Pro 6', brand: 'Noise',
     category: 'SmartWatches', price: 4999, original: 6999, rating: 4.4, reviews: 32400,
     image: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=500',
     badge: 'sale', tags: ['Bluetooth Calling', 'AMOLED', 'Fitness'],
@@ -179,7 +179,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 55, name: 'boAt Lunar Pro LTE', brand: 'boAt',
+    id: 20, name: 'boAt Lunar Pro LTE', brand: 'boAt',
     category: 'SmartWatches', price: 8999, original: 11999, rating: 4.3, reviews: 18600,
     image: 'https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?w=500',
     badge: 'new', tags: ['LTE', 'AMOLED', 'Calling'],
@@ -188,7 +188,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 56, name: 'Fire-Boltt Dream', brand: 'Fire-Boltt',
+    id: 21, name: 'Fire-Boltt Dream', brand: 'Fire-Boltt',
     category: 'SmartWatches', price: 5999, original: 7999, rating: 4.2, reviews: 22100,
     image: 'https://images.unsplash.com/photo-1510017803434-a899398421b3?w=500',
     badge: 'sale', tags: ['Android Apps', '4G', 'Touchscreen'],
@@ -197,7 +197,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 57, name: 'Fossil Gen 6 Wellness', brand: 'Fossil',
+    id: 22, name: 'Fossil Gen 6 Wellness', brand: 'Fossil',
     category: 'SmartWatches', price: 21999, original: 29999, rating: 4.5, reviews: 6400,
     image: 'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500',
     badge: 'premium', tags: ['Wear OS', 'Classic Design', 'Wellness'],
@@ -206,7 +206,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 58, name: 'Casio G-Shock GBD-H2000', brand: 'Casio',
+    id: 23, name: 'Casio G-Shock GBD-H2000', brand: 'Casio',
     category: 'SmartWatches', price: 34999, original: 39999, rating: 4.7, reviews: 4800,
     image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?w=500',
     badge: 'hot', tags: ['G-Shock', 'Solar Charging', 'Rugged'],
@@ -215,7 +215,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 59, name: 'Xiaomi Watch 2 Pro', brand: 'Xiaomi',
+    id: 24, name: 'Xiaomi Watch 2 Pro', brand: 'Xiaomi',
     category: 'SmartWatches', price: 19999, original: 24999, rating: 4.4, reviews: 9700,
     image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=500',
     badge: 'trending', tags: ['Wear OS', 'GPS', 'Fitness'],
@@ -224,7 +224,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 60, name: 'Realme Watch S2', brand: 'Realme',
+    id: 25, name: 'Realme Watch S2', brand: 'Realme',
     category: 'SmartWatches', price: 5999, original: 7999, rating: 4.3, reviews: 15900,
     image: 'https://images.unsplash.com/photo-1544117519-31a4b719223d?w=500',
     badge: 'sale', tags: ['Bluetooth Calling', 'Sports Modes', 'AMOLED'],
@@ -233,7 +233,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 61, name: 'Titan Smart Pro', brand: 'Titan',
+    id: 26, name: 'Titan Smart Pro', brand: 'Titan',
     category: 'SmartWatches', price: 12999, original: 15999, rating: 4.4, reviews: 8900,
     image: 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=500',
     badge: 'featured', tags: ['Premium Design', 'Health Tracking', 'AMOLED'],
@@ -242,7 +242,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 62, name: 'Nothing CMF Watch Pro 2', brand: 'CMF',
+    id: 27, name: 'Nothing CMF Watch Pro 2', brand: 'CMF',
     category: 'SmartWatches', price: 4999, original: 6999, rating: 4.5, reviews: 12100,
     image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500',
     badge: 'new', tags: ['Minimal Design', 'GPS', 'Calling'],
@@ -251,7 +251,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 63, name: 'Suunto Race', brand: 'Suunto',
+    id: 27, name: 'Suunto Race', brand: 'Suunto',
     category: 'SmartWatches', price: 44999, original: 49999, rating: 4.8, reviews: 3100,
     image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500',
     badge: 'premium', tags: ['Athlete', 'GPS', 'Training'],
@@ -260,7 +260,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 64, name: 'Polar Vantage V3', brand: 'Polar',
+    id: 28, name: 'Polar Vantage V3', brand: 'Polar',
     category: 'SmartWatches', price: 54999, original: 59999, rating: 4.8, reviews: 2700,
     image: 'https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=500',
     badge: 'premium', tags: ['Training Load', 'Recovery', 'GPS'],
@@ -269,7 +269,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 65, name: 'Mobvoi TicWatch Pro 5', brand: 'Mobvoi',
+    id: 29, name: 'Mobvoi TicWatch Pro 5', brand: 'Mobvoi',
     category: 'SmartWatches', price: 28999, original: 34999, rating: 4.6, reviews: 5100,
     image: 'https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=500',
     badge: 'hot', tags: ['Wear OS', 'Dual Display', 'Long Battery'],
@@ -278,7 +278,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 66, name: 'Amazfit Balance', brand: 'Amazfit',
+    id: 30, name: 'Amazfit Balance', brand: 'Amazfit',
     category: 'SmartWatches', price: 22999, original: 27999, rating: 4.6, reviews: 7400,
     image: 'https://images.unsplash.com/photo-1510017803434-a899398421b3?w=500',
     badge: 'featured', tags: ['Wellness', 'GPS', 'AI Coach'],
@@ -288,7 +288,7 @@ const PRODUCTS = [
 
   // ── EARBUDS ────────────────────────────────────────────────
   {
-    id: 12, name: 'Sony WF-1000XM5', brand: 'Sony',
+    id: 31, name: 'Sony WF-1000XM5', brand: 'Sony',
     category: 'Earbuds', price: 24990, original: 29990, rating: 4.8, reviews: 18400,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSl1dBGRjgMeg-JxliCiKK6cK-MwgRKlUafsKtILXfFSqaJ4MDQVktVmO49cOdAtrbrJPtmJMXkQKLtGSw9nnj1pTm0D23eCWVGCAOXZXT5RNSvReY72mJS',
     badge: 'hot', tags: ['ANC', 'LDAC', '8hr Battery'],
@@ -296,7 +296,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 13, name: 'Apple AirPods Pro 2nd Gen', brand: 'Apple',
+    id: 32, name: 'Apple AirPods Pro 2nd Gen', brand: 'Apple',
     category: 'Earbuds', price: 24900, original: 29900, rating: 4.7, reviews: 31000,
     image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTMJXCLWId2m2It9x05XPbmIy4EylEuL0qKC39XtGFmy7Vdx20fgHnaN3v3b5obDgHrzsOToIhyLh5f4EKPT0g76MGkVcXCwLBvqRLFqGrkQWVgSotVn4CsnQ',
     badge: null, tags: ['H2 Chip', 'Adaptive Audio', 'USB-C'],
@@ -304,7 +304,7 @@ const PRODUCTS = [
     tab: ['bestseller'],
   },
   {
-    id: 14, name: 'Nothing Ear (2)', brand: 'Nothing',
+    id: 33, name: 'Nothing Ear (2)', brand: 'Nothing',
     category: 'Earbuds', price: 9999, original: 11999, rating: 4.4, reviews: 11200,
     image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTfMMEz6I0qF9of561ZoshodfdX9IX9F0LBkALrN7zcP8vD0vd7QNiny9XalEWTTO9H-07mu1rouy0trM9QDNEI2j2UhWi-glSVuS7CEP_9f2W8-g4mDrzP',
     badge: 'new', tags: ['Transparent Design', 'ANC', 'LHDC 5.0'],
@@ -312,7 +312,7 @@ const PRODUCTS = [
     tab: ['new', 'topdeals'],
   },
   {
-    id: 15,
+    id: 34,
     name: 'Bose QuietComfort Earbuds II',
     brand: 'Bose',
     category: 'Earbuds',
@@ -328,7 +328,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 67, name: 'Apple AirPods Pro 2', brand: 'Apple',
+    id: 35, name: 'Apple AirPods Pro 2', brand: 'Apple',
     category: 'Earbuds', price: 24900, original: 26900, rating: 4.9, reviews: 45200,
     image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ7KffMP0BPubecjYAqKFqxWXaBndtJJTjkbI-BeA3rib7Ja_2QoF2mAThCnc4m7JFPsUQ3VsQ1hT1ABQjq52XRmYF2X6bjha8CuOfENO8vENCLHN6Ypr2CpWfz6zuxDLbtnRYHZs0&usqp=CAc',
     badge: 'bestseller',
@@ -338,7 +338,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 68, name: 'Samsung Galaxy Buds3 Pro', brand: 'Samsung',
+    id: 36, name: 'Samsung Galaxy Buds3 Pro', brand: 'Samsung',
     category: 'Earbuds', price: 19999, original: 24999, rating: 4.7, reviews: 17600,
     image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500',
     badge: 'hot',
@@ -348,7 +348,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 69, name: 'Bose QuietComfort Ultra Earbuds', brand: 'Bose',
+    id: 37, name: 'Bose QuietComfort Ultra Earbuds', brand: 'Bose',
     category: 'Earbuds', price: 26999, original: 31999, rating: 4.8, reviews: 9200,
     image: 'https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?w=500',
     badge: 'premium',
@@ -358,7 +358,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 70, name: 'Sennheiser Momentum True Wireless 4', brand: 'Sennheiser',
+    id: 38, name: 'Sennheiser Momentum True Wireless 4', brand: 'Sennheiser',
     category: 'Earbuds', price: 24990, original: 29990, rating: 4.8, reviews: 7800,
     image: 'https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=500',
     badge: 'premium',
@@ -368,7 +368,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 71, name: 'Nothing Ear (2024)', brand: 'Nothing',
+    id: 39, name: 'Nothing Ear (2024)', brand: 'Nothing',
     category: 'Earbuds', price: 11999, original: 14999, rating: 4.6, reviews: 22400,
     image: 'https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500',
     badge: 'new',
@@ -378,7 +378,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 72, name: 'OnePlus Buds Pro 3', brand: 'OnePlus',
+    id: 40, name: 'OnePlus Buds Pro 3', brand: 'OnePlus',
     category: 'Earbuds', price: 11999, original: 13999, rating: 4.7, reviews: 19100,
     image: 'https://images.unsplash.com/photo-1606741965326-cb990ae01bb2?w=500',
     badge: 'hot',
@@ -388,7 +388,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 73, name: 'Google Pixel Buds Pro 2', brand: 'Google',
+    id: 41, name: 'Google Pixel Buds Pro 2', brand: 'Google',
     category: 'Earbuds', price: 18999, original: 22999, rating: 4.7, reviews: 8700,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQbzG1BV_J9H6v7xWBKGaNE5gOcoYyOE4mQxnYJWYC1evXJnrf_DoRcuAFEE3_x-kuNIPrciYvB27WQ_bFu8ZCJf-Vslr3z1vQgGOM_N1QBH6fc5jgTNNocCvzU0VIpPw&usqp=CAc',
     badge: 'featured',
@@ -398,7 +398,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 74, name: 'Jabra Elite 10', brand: 'Jabra',
+    id: 42, name: 'Jabra Elite 10', brand: 'Jabra',
     category: 'Earbuds', price: 17999, original: 21999, rating: 4.6, reviews: 6100,
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSMaRpNgez3FykYKl4pLHV6t7asTZ1O0dKuEdTUWJJFP6U5KvpbBSqJCPnWFBcznxSpFhsTtaw-f5okk71C0KbovJf1SGsKattiXa4wjoB8YuNNVKi1Ph_e6fZZmP-65MhHXWOLrhFS&usqp=CAc',
     badge: 'premium',
@@ -408,7 +408,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 75, name: 'JBL Live Beam 3', brand: 'JBL',
+    id: 43, name: 'JBL Live Beam 3', brand: 'JBL',
     category: 'Earbuds', price: 14999, original: 17999, rating: 4.5, reviews: 8900,
     image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfLtc-hVDBr-MDyeZcdQZamLkum2XIiCdzDyk5ATmMy4JH-9TngsR8JdCqPApnUXapIE0mvzKYSb1nulNact7Sl1IxVaiDCP8PC5b9GO70ujAm8srhU82PijC7MMNk&usqp=CAc',
     badge: 'trending',
@@ -418,7 +418,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 76, name: 'Realme Buds Air 6 Pro', brand: 'Realme',
+    id: 44, name: 'Realme Buds Air 6 Pro', brand: 'Realme',
     category: 'Earbuds', price: 4999, original: 6999, rating: 4.5, reviews: 31500,
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQfG1FE8znj6OBqEVxhQic5NZ4f7jV5SD59-eX3PKG90fG9pRSqsOvBEP9ptVBUYaQw-gGeAgU78bziBdburWrNqhLs_tdDoS9SyL1NMz0UtJRYps8fJZw0YLYZ8yxDXHBJa0o5zg&usqp=CAc',
     badge: 'sale',
@@ -428,7 +428,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 77, name: 'boAt Nirvana Ion ANC', brand: 'boAt',
+    id: 45, name: 'boAt Nirvana Ion ANC', brand: 'boAt',
     category: 'Earbuds', price: 2999, original: 4999, rating: 4.3, reviews: 44100,
     image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSVIfbUymcV0Nibks2HE9tVXQANSlUERTlrsNWORCWuQb4kOnJr0-iXYv1Fn8HTLQ9mLFmy1CGRjWgyK2_4GQCi5UrvThbYdun0C9Z_woLZ-LR7Wzf6MVwb0oLNP5_J-L3U5Nnp7Q&usqp=CAc',
     badge: 'bestseller',
@@ -438,7 +438,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 78, name: 'Noise Buds X Prime', brand: 'Noise',
+    id: 46, name: 'Noise Buds X Prime', brand: 'Noise',
     category: 'Earbuds', price: 2499, original: 3999, rating: 4.2, reviews: 27300,
     image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQYcBgRPONqmLq7Y7d6MUBxlWkLEb-voRkTbgl0hkLTm-s_QDK3nwsBPXhsao55U3LkB_6Q0zxNN_ZJ5oS5VYKgSN5R4u26LXhN2r6yTuDB3ejnAdkopuitm73RJQ&usqp=CAc',
     badge: 'sale',
@@ -448,7 +448,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 79, name: 'Oppo Enco X3', brand: 'Oppo',
+    id: 47, name: 'Oppo Enco X3', brand: 'Oppo',
     category: 'Earbuds', price: 10999, original: 13999, rating: 4.6, reviews: 9700,
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCFedBTMALx3pL_9nGzT2VHjBgWMgQo9-0Q&s',
     badge: 'hot',
@@ -458,7 +458,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 80, name: 'Huawei FreeBuds Pro 3', brand: 'Huawei',
+    id: 47, name: 'Huawei FreeBuds Pro 3', brand: 'Huawei',
     category: 'Earbuds', price: 16999, original: 19999, rating: 4.7, reviews: 5800,
     image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTLh6x_CmY5TchJRJLwRwaa2m7pxluaIDNmPHVfntf2yq23cYmWI1OGUg0QAu_QSkGJ5eLQXRoMBom5zeQJ6G0u185s4vqhLBJ4jjeDX9Gu7ub9pYBkEEKNzbXWOmVPPmGIfpuQwQ&usqp=CAc',
     badge: 'premium',
@@ -468,7 +468,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 81, name: 'Anker Soundcore Liberty 4 NC', brand: 'Soundcore',
+    id: 48, name: 'Anker Soundcore Liberty 4 NC', brand: 'Soundcore',
     category: 'Earbuds', price: 8999, original: 11999, rating: 4.7, reviews: 12600,
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTNycLOIPaZL1lC2_1yAOjfjiiYbfxHef7benZvYwihcqm6s1e1btAniEbMBad0Oo-rMFYk4AGI24vDuoqm1dCPk5ozuKy_gETdyOnqOZHYAAbh55uvOjTDedzOVfY-sKd9rXU-LQ&usqp=CAc',
     badge: 'featured',
@@ -478,7 +478,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 82, name: 'Sony LinkBuds S', brand: 'Sony',
+    id: 49, name: 'Sony LinkBuds S', brand: 'Sony',
     category: 'Earbuds', price: 14990, original: 18990, rating: 4.6, reviews: 11200,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSSmSXSUTge_QcbqfdeLiDLI3pYFatCUPnBluus1OlQ-Lxv0r3A23KPEkzaVlbWDUZYNQvPPXSIwwdQt-pYuTTzsSX34xYooCns5wtJFUYSVo75K45CPbBEkA_HOzcoAJCP5IbbJAIMXPI&usqp=CAc',
     badge: 'trending',
@@ -488,7 +488,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 83, name: 'CMF Buds Pro 2', brand: 'CMF',
+    id: 50, name: 'CMF Buds Pro 2', brand: 'CMF',
     category: 'Earbuds', price: 4299, original: 5999, rating: 4.4, reviews: 16400,
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgggb0zIfE2Iz7DCHixSEQBxwHL26c00ZB7Q&s',
     badge: 'new',
