@@ -498,7 +498,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 84, name: 'Skullcandy Rail ANC', brand: 'Skullcandy',
+    id: 51, name: 'Skullcandy Rail ANC', brand: 'Skullcandy',
     category: 'Earbuds', price: 7999, original: 9999, rating: 4.3, reviews: 7200,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOuK5qPm3j1qMcKbJ5mmPZMi_o1JEK_KmMhHDeeQPaPImw_8-s5nwQHKsxW1CfaooZt6EUzhnbSJrTGmO5cH9NXbg-53DxedQQE862bUO1T_JPx2Q2Iyj57w&usqp=CAc',
     badge: 'featured',
@@ -508,7 +508,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 85, name: 'Beats Studio Buds+', brand: 'Beats',
+    id: 52, name: 'Beats Studio Buds+', brand: 'Beats',
     category: 'Earbuds', price: 16999, original: 19999, rating: 4.7, reviews: 13800,
     image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSmeaeTCDBkk-wopGXdUXc2YurOIpHy25Fha8rifXcidSHGBTccEwBFGThOVyjY32GOOADJJmrHGLagCEZCdFgdcSx_m9mLyBfmzvALYNkRs-Q4dM1td26EAWI0bvll7zqVatumsw&usqp=CAc',
     badge: 'hot',
@@ -518,7 +518,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 86, name: 'Xiaomi Buds 5 Pro', brand: 'Xiaomi',
+    id: 53, name: 'Xiaomi Buds 5 Pro', brand: 'Xiaomi',
     category: 'Earbuds', price: 9999, original: 12999, rating: 4.5, reviews: 10300,
     image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTpKfckJfAvB5wLMAJi0aeDTYV_nXc9H2FMu88R7-GiOkBRNuglff6IVdIIIOGyZ_gktiPmfOPoR-WC_wEO7DEbhntaABY8dT7wftzBkJ0jM6bUGyih2yqOo3Iwria0wCE3pX5h3Q&usqp=CAc',
     badge: 'trending',
@@ -529,7 +529,7 @@ const PRODUCTS = [
 
   // ── KEYBOARDS ──────────────────────────────────────────────
   {
-    id: 16, name: 'Keychron Q1 Pro', brand: 'Keychron',
+    id: 54, name: 'Keychron Q1 Pro', brand: 'Keychron',
     category: 'Keyboards', price: 58527, original: 68527, rating: 4.8, reviews: 5600,
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTzwSS0y7pP8LLZXTcPL7TlwHer5YDY0SkMqLlumE10pJrboG-Ya9PJEEXkXBD7xmeNh3eEuKzQ2EHJMEbYXLlwh0BXmHHehO6rTZaH8DDIyAkvOPn7wCeD',
     badge: 'hot', tags: ['75% Layout', 'QMK/VIA', 'Gasket Mount'],
@@ -537,7 +537,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 17, name: 'Logitech MX Keys S', brand: 'Logitech',
+    id: 55, name: 'Logitech MX Keys S', brand: 'Logitech',
     category: 'Keyboards', price: 9495, original: 11995, rating: 4.6, reviews: 13200,
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLzYATnhmwLeCt2hRsTKCL7G3mQmvETfB8K5EAguhbH3o3qEYP7hoqjY8aj1f7wJ0HkMRJ9pEl88XBzrg3T9juGsOjtGVyrQbc97B5Mvkj',
     badge: null, tags: ['Multi-Device', 'Backlit', 'Flow Cross-Computer'],
@@ -545,7 +545,7 @@ const PRODUCTS = [
     tab: ['bestseller', 'topdeals'],
   },
   {
-    id: 18,
+    id: 56,
     name: 'Razer BlackWidow V4 Pro',
     brand: 'Razer',
     category: 'Keyboards',
@@ -562,7 +562,7 @@ const PRODUCTS = [
 
   // ── FASHION ───────────────────────────────────────────────
   {
-    id: 19, name: 'Premium Oversized Hoodie', brand: 'H&M',
+    id: 57, name: 'Premium Oversized Hoodie', brand: 'H&M',
     category: 'Fashion', price: 1999, original: 3999, rating: 4.3, reviews: 22100,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSDvkXK3xWRaVXZKszbFatPi-E7vONk__IS1wYE5aUNkkM2t-DCrwYDClgBtDzb1lyVHume2awtYm-ybi-T5Mz3UXfFj2DJp3FCW8HIemgZy4l-7AOQWqVc',
     badge: 'new', tags: ['Cotton Blend', 'Unisex', 'Multiple Colors'],
@@ -570,7 +570,7 @@ const PRODUCTS = [
     tab: ['new', 'flashsale'],
   },
   {
-    id: 20, name: 'Slim Fit Formal Shirt', brand: 'Van Heusen',
+    id: 58, name: 'Slim Fit Formal Shirt', brand: 'Van Heusen',
     category: 'Fashion', price: 1499, original: 2999, rating: 4.2, reviews: 14500,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTkH9PEySesUPfV7NpoheMJl5sc4yzT91u3AaGF1hB5rt_CJbUK-9obcXTqydqMz421DyYVFZ-TuWdPmv3kmkqjwbit0sqt6LeSXuWx0T-Hf6959VJ5jEwZSg',
     badge: null, tags: ['Wrinkle-Free', 'Cotton', 'Office Ready'],
@@ -578,7 +578,7 @@ const PRODUCTS = [
     tab: ['topdeals', 'flashsale'],
   },
   {
-    id: 20,
+    id: 59,
     name: 'Classic Slim Fit Denim Jeans',
     brand: 'Levi\'s',
     category: 'Fashion',
@@ -594,7 +594,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 21,
+    id: 60,
     name: 'Men\'s Casual Checked Shirt',
     brand: 'Roadster',
     category: 'Fashion',
@@ -609,7 +609,7 @@ const PRODUCTS = [
     tab: ['sale', 'featured'],
 },
 {
-    id: 43,
+    id: 61,
     name: 'Men\'s Solid Cotton T-Shirt',
     brand: 'Puma',
     category: 'Fashion',
@@ -623,7 +623,7 @@ const PRODUCTS = [
     tab: ['bestseller', 'mens'],
 },
 {
-    id: 44,
+    id: 62,
     name: 'Men\'s Graphic Print T-Shirt',
     brand: 'Nike',
     category: 'Fashion',
@@ -637,7 +637,7 @@ const PRODUCTS = [
     tab: ['trending', 'mens'],
 },
 {
-    id: 45,
+    id: 63,
     name: 'Men\'s Polo T-Shirt',
     brand: 'U.S. Polo Assn.',
     category: 'Fashion',
@@ -651,7 +651,7 @@ const PRODUCTS = [
     tab: ['popular', 'mens'],
 },
 {
-    id: 46,
+    id: 64,
     name: 'Men\'s Oversized T-Shirt',
     brand: 'Roadster',
     category: 'Fashion',
@@ -666,7 +666,7 @@ const PRODUCTS = [
     tab: ['new', 'mens'],
 },
 {
-    id: 47,
+    id: 65,
     name: 'Men\'s Round Neck T-Shirt',
     brand: 'Levis',
     category: 'Fashion',
@@ -681,7 +681,7 @@ const PRODUCTS = [
     tab: ['mens'],
 },
 {
-    id: 48,
+    id: 66,
     name: 'Men\'s Sports T-Shirt',
     brand: 'Adidas',
     category: 'Fashion',
@@ -696,7 +696,7 @@ const PRODUCTS = [
     tab: ['sports', 'mens'],
 },
 {
-    id: 49,
+    id: 67,
     name: 'Men\'s Striped T-Shirt',
     brand: 'Allen Solly',
     category: 'Fashion',
@@ -711,7 +711,7 @@ const PRODUCTS = [
     tab: ['sale', 'mens'],
 },
 {
-    id: 50,
+    id: 68,
     name: 'Men\'s Henley T-Shirt',
     brand: 'Roadster',
     category: 'Fashion',
@@ -726,7 +726,7 @@ const PRODUCTS = [
     tab: ['mens'],
 },
 {
-    id: 51,
+    id: 69,
     name: 'Men\'s Printed T-Shirt',
     brand: 'HRX',
     category: 'Fashion',
@@ -741,7 +741,7 @@ const PRODUCTS = [
     tab: ['sale', 'mens'],
 },
 {
-    id: 52,
+    id: 70,
     name: 'Men\'s V-Neck T-Shirt',
     brand: 'Puma',
     category: 'Fashion',
@@ -756,7 +756,7 @@ const PRODUCTS = [
     tab: ['mens'],
 },
 {
-    id: 53,
+    id: 71,
     name: 'Men\'s Full Sleeve T-Shirt',
     brand: 'Nike',
     category: 'Fashion',
@@ -771,7 +771,7 @@ const PRODUCTS = [
     tab: ['winter', 'mens'],
 },
 {
-    id: 54,
+    id: 72,
     name: 'Men\'s Slim Fit T-Shirt',
     brand: 'Levis',
     category: 'Fashion',
@@ -786,7 +786,7 @@ const PRODUCTS = [
     tab: ['popular', 'mens'],
 },
 {
-    id: 55,
+    id: 73,
     name: 'Men\'s Color Block T-Shirt',
     brand: 'HRX',
     category: 'Fashion',
@@ -801,7 +801,7 @@ const PRODUCTS = [
     tab: ['trending', 'mens'],
 },
 {
-    id: 56,
+    id: 74,
     name: 'Men\'s Casual Crew Neck T-Shirt',
     brand: 'Allen Solly',
     category: 'Fashion',
@@ -816,7 +816,7 @@ const PRODUCTS = [
     tab: ['mens'],
 },
 {
-    id: 57,
+    id: 75,
     name: 'Men\'s Premium Cotton T-Shirt',
     brand: 'Tommy Hilfiger',
     category: 'Fashion',
@@ -831,7 +831,7 @@ const PRODUCTS = [
     tab: ['premium', 'mens'],
 },
 {
-    id: 22,
+    id: 76,
     name: 'Women\'s Floral Maxi Dress',
     brand: 'Zara',
     category: 'Fashion',
@@ -847,7 +847,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 23,
+    id: 77,
     name: 'Premium Leather Jacket',
     brand: 'Jack & Jones',
     category: 'Fashion',
@@ -863,7 +863,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 24,
+    id: 78,
     name: 'Athletic Jogger Pants',
     brand: 'Puma',
     category: 'Fashion',
@@ -879,7 +879,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 25,
+    id: 79,
     name: 'Women\'s High-Waist Jeans',
     brand: 'ONLY',
     category: 'Fashion',
@@ -895,7 +895,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 26,
+    id: 80,
     name: 'Premium Graphic T-Shirt',
     brand: 'H&M',
     category: 'Fashion',
@@ -911,7 +911,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 27,
+    id: 81,
     name: 'Formal Business Suit',
     brand: 'Louis Philippe',
     category: 'Fashion',
@@ -927,7 +927,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 28,
+    id: 82,
     name: 'Women\'s Cotton Kurti',
     brand: 'Biba',
     category: 'Fashion',
@@ -943,7 +943,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 29,
+    id: 83,
     name: 'Floral Printed Kurti',
     brand: 'Libas',
     category: 'Fashion',
@@ -958,7 +958,7 @@ const PRODUCTS = [
     tab: ['sale', 'ethnic'],
 },
 {
-    id: 30,
+    id: 84,
     name: 'Rayon Straight Kurti',
     brand: 'W',
     category: 'Fashion',
@@ -973,7 +973,7 @@ const PRODUCTS = [
     tab: ['trending', 'ethnic'],
 },
 {
-    id: 31,
+    id: 85,
     name: 'Anarkali Kurti',
     brand: 'Aurelia',
     category: 'Fashion',
@@ -988,7 +988,7 @@ const PRODUCTS = [
     tab: ['bestseller', 'ethnic'],
 },
 {
-    id: 32,
+    id: 86,
     name: 'Chikankari Kurti',
     brand: 'Biba',
     category: 'Fashion',
@@ -1003,7 +1003,7 @@ const PRODUCTS = [
     tab: ['new', 'ethnic'],
 },
 {
-    id: 33,
+    id: 87,
     name: 'A-Line Printed Kurti',
     brand: 'Libas',
     category: 'Fashion',
@@ -1018,7 +1018,7 @@ const PRODUCTS = [
     tab: ['ethnic'],
 },
 {
-    id: 34,
+    id: 88,
     name: 'Designer Kurti',
     brand: 'W',
     category: 'Fashion',
@@ -1033,7 +1033,7 @@ const PRODUCTS = [
     tab: ['premium', 'ethnic'],
 },
 {
-    id: 35,
+    id: 89,
     name: 'Cotton Embroidered Kurti',
     brand: 'Aurelia',
     category: 'Fashion',
@@ -1048,7 +1048,7 @@ const PRODUCTS = [
     tab: ['sale', 'ethnic'],
 },
 {
-    id: 36,
+    id: 90,
     name: 'Long Kurti',
     brand: 'Biba',
     category: 'Fashion',
@@ -1063,7 +1063,7 @@ const PRODUCTS = [
     tab: ['ethnic'],
 },
 {
-    id: 37,
+    id: 91,
     name: 'Festive Wear Kurti',
     brand: 'Libas',
     category: 'Fashion',
@@ -1078,7 +1078,7 @@ const PRODUCTS = [
     tab: ['trending', 'ethnic'],
 },
 {
-    id: 38,
+    id: 91,
     name: 'Printed Cotton Kurti',
     brand: 'Aurelia',
     category: 'Fashion',
@@ -1093,7 +1093,7 @@ const PRODUCTS = [
     tab: ['sale', 'ethnic'],
 },
 {
-    id: 39,
+    id: 92,
     name: 'Office Wear Kurti',
     brand: 'W',
     category: 'Fashion',
@@ -1108,7 +1108,7 @@ const PRODUCTS = [
     tab: ['popular', 'ethnic'],
 },
 {
-    id: 40,
+    id: 93,
     name: 'Hand Block Print Kurti',
     brand: 'Biba',
     category: 'Fashion',
@@ -1123,7 +1123,7 @@ const PRODUCTS = [
     tab: ['new', 'ethnic'],
 },
 {
-    id: 41,
+    id: 94,
     name: 'Sleeveless Summer Kurti',
     brand: 'Libas',
     category: 'Fashion',
@@ -1137,7 +1137,7 @@ const PRODUCTS = [
     tab: ['summer', 'ethnic'],
 },
 {
-    id: 42,
+    id: 95,
     name: 'Premium Silk Kurti',
     brand: 'Aurelia',
     category: 'Fashion',
@@ -1153,7 +1153,7 @@ const PRODUCTS = [
 },
   // ── SHOES ─────────────────────────────────────────────────
   {
-    id: 21, name: 'Nike Air Max 270', brand: 'Nike',
+    id: 96, name: 'Nike Air Max 270', brand: 'Nike',
     category: 'Shoes', price: 12495, original: 14995, rating: 4.6, reviews: 28000,
     image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT9s5GDqkiItI1Ov7rs7gctfgzNSO1bVrw11Vbtm6gas1uHVU0G132HntTt9XQjyztOrQtus-D1r-LoOQgpAXsjcB2KVsQqAncaaqS_L1ImEb0hgPq4Pn7XRQ',
     badge: 'hot', tags: ['Air Unit', 'Breathable', 'Lifestyle'],
@@ -1161,7 +1161,7 @@ const PRODUCTS = [
     tab: ['featured', 'bestseller'],
   },
   {
-    id: 23, name: 'Puma RS-X Reinvention', brand: 'Puma',
+    id: 97, name: 'Puma RS-X Reinvention', brand: 'Puma',
     category: 'Shoes', price: 8999, original: 11999, rating: 4.5, reviews: 18900,
     image: 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=500',
     badge: 'hot',
@@ -1171,7 +1171,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 24, name: 'Nike Revolution 7', brand: 'Nike',
+    id: 98, name: 'Nike Revolution 7', brand: 'Nike',
     category: 'Shoes', price: 4995, original: 6995, rating: 4.4, reviews: 21500,
     image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500',
     badge: 'sale',
@@ -1181,7 +1181,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 25, name: 'Adidas Forum Low', brand: 'Adidas',
+    id: 99, name: 'Adidas Forum Low', brand: 'Adidas',
     category: 'Shoes', price: 9999, original: 12999, rating: 4.6, reviews: 14200,
     image: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=500',
     badge: 'new',
@@ -1191,7 +1191,7 @@ const PRODUCTS = [
 },
 
 {
-    id: 26, name: 'New Balance 574', brand: 'New Balance',
+    id: 100, name: 'New Balance 574', brand: 'New Balance',
     category: 'Shoes', price: 8999, original: 10999, rating: 4.8, reviews: 17300,
     image: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=500',
     badge: 'premium',
