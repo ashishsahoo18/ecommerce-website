@@ -2,16 +2,17 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login, logout
 
 
-def home(request):
-    return render(request, "index.html")
-
-
 def login_page(request):
+
+    if request.user.is_authenticated:
+        return redirect("home")
+
 
     if request.method == "POST":
 
-        username = request.POST["username"]
-        password = request.POST["password"]
+        username = request.POST.get("username")
+        password = request.POST.get("password")
+
 
         user = authenticate(
             request,
@@ -19,15 +20,26 @@ def login_page(request):
             password=password
         )
 
-        if user is not None:
+
+        if user:
+
             login(request, user)
-            return redirect("/")
+
+            return redirect("home")
+
 
     return render(request, "login.html")
+
 
 
 def logout_page(request):
 
     logout(request)
 
-    return redirect("/")
+    return redirect("login")
+
+
+
+def home(request):
+
+    return render(request, "index.html")
