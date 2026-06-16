@@ -1,40 +1,28 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import authenticate, login
 
 
 def login_page(request):
 
     if request.method == "POST":
 
-        username = request.POST.get("username")
-        password = request.POST.get("password")
-
+        username = request.POST["username"]
+        password = request.POST["password"]
 
         user = authenticate(
             username=username,
             password=password
         )
 
-
-        if user is not None:
-
+        if user:
             login(request, user)
-
-            return redirect("home")
-
-
-    return render(request, "login.html")
+            return redirect("index")
 
 
-
-def home(request):
-
-    return render(request, "index.html")
+    return render(request,"login.html")
 
 
 
-def logout_page(request):
+def index(request):
 
-    logout(request)
-
-    return redirect("login")
+    return render(request,"index.html")

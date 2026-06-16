@@ -60,7 +60,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'backend' / 'templates'],
+        'DIRS': [BASE_DIR  / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,10 +116,11 @@ USE_I18N = True
 
 USE_TZ = True
 
-LOGIN_URL = "login"
 
-LOGIN_REDIRECT_URL = "home"
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGIN_URL = "login"
+
+LOGIN_REDIRECT_URL = "home"
