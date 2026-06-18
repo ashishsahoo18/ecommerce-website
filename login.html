@@ -16,7 +16,6 @@ body {
     overflow: hidden;
 }
 
-/* Animated Background Glow */
 body::before {
     content: "";
     position: absolute;
@@ -33,117 +32,246 @@ body::before {
     100% { transform: translate(100px, 100px); }
 }
 
-/* Container */
+
 .container {
+
     position: relative;
     width: 320px;
     padding: 40px;
     border-radius: 20px;
     background: rgba(15, 23, 42, 0.6);
     backdrop-filter: blur(15px);
-    box-shadow: 0 0 30px rgba(0, 247, 255, 0.2);
-    text-align: center;
-    color: white;
-    z-index: 1;
+    box-shadow: 0 0 30px rgba(0,247,255,0.2);
+    text-align:center;
+    color:white;
+    z-index:1;
+
 }
 
-/* Neon Rotating Ring */
+
 .container::before {
-    content: "";
-    position: absolute;
-    inset: -3px;
-    border-radius: 25px;
-    background: conic-gradient(
-        #00f7ff,
-        #0ea5e9,
-        #22c55e,
-        #00f7ff
+
+    content:"";
+    position:absolute;
+    inset:-3px;
+    border-radius:25px;
+    background:conic-gradient(
+    #00f7ff,
+    #0ea5e9,
+    #22c55e,
+    #00f7ff
     );
-    animation: spin 4s linear infinite;
-    z-index: -2;
+
+    animation:spin 4s linear infinite;
+    z-index:-2;
+
 }
 
-/* Inner Dark Layer */
+
 .container::after {
-    content: "";
-    position: absolute;
-    inset: 3px;
-    background: rgba(2, 6, 23, 0.9);
-    border-radius: 20px;
-    z-index: -1;
+
+    content:"";
+    position:absolute;
+    inset:3px;
+    background:rgba(2,6,23,0.9);
+    border-radius:20px;
+    z-index:-1;
+
 }
+
+
 
 @keyframes spin {
-    100% { transform: rotate(360deg); }
+
+100%{
+transform:rotate(360deg);
 }
 
-/* Heading Glow */
+}
+
+
 h2 {
-    margin-bottom: 20px;
-    color: #00f7ff;
-    text-shadow: 0 0 10px #00f7ff;
+
+color:#00f7ff;
+text-shadow:0 0 10px #00f7ff;
+
 }
 
-/* Inputs */
+
+
 input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border-radius: 30px;
-    border: 1px solid rgba(0, 247, 255, 0.3);
-    background: transparent;
-    color: white;
-    outline: none;
-    transition: 0.3s;
+
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:30px;
+border:1px solid rgba(0,247,255,0.3);
+background:transparent;
+color:white;
+outline:none;
+
 }
 
-input:focus {
-    border-color: #00f7ff;
-    box-shadow: 0 0 10px #00f7ff;
+
+
+input:focus{
+
+border-color:#00f7ff;
+box-shadow:0 0 10px #00f7ff;
+
 }
 
-/* Neon Button */
+
+
 button {
-    width: 100%;
-    padding: 12px;
-    border-radius: 30px;
-    border: none;
-    background: #00f7ff;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: 0.3s;
+
+width:100%;
+padding:12px;
+border-radius:30px;
+border:none;
+background:#00f7ff;
+color:black;
+font-weight:bold;
+cursor:pointer;
+margin-top:10px;
+transition:.3s;
+
 }
 
-button:hover {
-    box-shadow: 0 0 20px #00f7ff;
-    transform: scale(1.05);
+
+
+button:hover{
+
+box-shadow:0 0 20px #00f7ff;
+transform:scale(1.05);
+
 }
 
-/* Links */
-p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #94a3b8;
+
+
+p{
+
+color:#94a3b8;
+font-size:14px;
+
 }
 
-p span {
-    color: #00f7ff;
-    cursor: pointer;
+
+span{
+
+color:#00f7ff;
+cursor:pointer;
+
 }
+
+
 </style>
+
 </head>
+
 
 <body>
 
+
 <div class="container">
-    <h2>LOGIN</h2>
-    <input type="email" placeholder="Email">
-    <input type="password" placeholder="Password">
-    <button>Login</button>
-    <p>Don't have account? <span>Sign Up</span></p>
+
+<h2>LOGIN</h2>
+
+
+<input 
+type="email" 
+id="email"
+placeholder="Email">
+
+
+<input 
+type="password"
+id="password"
+placeholder="Password">
+
+
+
+<button onclick="login()">
+Login
+</button>
+
+
+
+<p>
+Don't have account?
+<span onclick="signup()">
+Sign Up
+</span>
+</p>
+
+
 </div>
 
+
+
+
+<script>
+
+
+function login(){
+
+
+let email =
+document.getElementById("email").value;
+
+
+let password =
+document.getElementById("password").value;
+
+
+
+if(email=="" || password==""){
+
+alert("Please fill all fields");
+
+return;
+
+}
+
+
+
+
+// save login user
+
+localStorage.setItem(
+"user",
+email
+);
+
+
+
+alert("Login Successful");
+
+
+// redirect ecommerce home page
+
+window.location.href="index.html";
+
+
+}
+
+
+
+
+function signup(){
+
+
+alert("Signup page coming soon");
+
+
+}
+
+
+
+</script>
+
+
+
 </body>
+
 </html>
