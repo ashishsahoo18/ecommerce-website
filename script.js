@@ -1776,25 +1776,36 @@ function initHamburger() {
 }
 function askAI(){
 
-
-let input = document.getElementById("user-message");
-
-
-let message = input.value.trim();
-
+let message = document
+.getElementById("user-message")
+.value
+.toLowerCase();
 
 
-if(message === ""){
+let chat = document.getElementById("chat-area");
 
-alert("Please type something");
+let products = document.querySelectorAll(".product-card");
 
-return;
+
+let result = [];
+
+
+
+products.forEach(product => {
+
+
+let text = product.innerText.toLowerCase();
+
+
+
+if(text.includes(message)){
+
+result.push(product.outerHTML);
 
 }
 
 
-
-let chat = document.getElementById("chat-area");
+});
 
 
 
@@ -1802,15 +1813,107 @@ chat.innerHTML += `
 
 <p>User: ${message}</p>
 
+`;
+
+
+
+if(result.length > 0){
+
+
+chat.innerHTML += `
+
 <p>
-AI: Searching products for "${message}"...
+AI: I found these products for you 👇
 </p>
+
+${result.join("")}
 
 `;
 
 
 
-input.value="";
+}
+
+else{
+
+
+// keyword search
+
+products.forEach(product=>{
+
+
+let text = product.innerText.toLowerCase();
+
+
+
+if(
+message.includes("watch") &&
+text.includes("watch")
+){
+
+result.push(product.outerHTML);
+
+}
+
+
+if(
+message.includes("phone") &&
+text.includes("phone")
+){
+
+result.push(product.outerHTML);
+
+}
+
+
+if(
+message.includes("laptop") &&
+text.includes("laptop")
+){
+
+result.push(product.outerHTML);
+
+}
+
+
+});
+
+
+
+if(result.length > 0){
+
+
+chat.innerHTML += `
+
+<p>
+AI: Recommended products 👇
+</p>
+
+${result.join("")}
+
+`;
+
+}
+
+else{
+
+
+chat.innerHTML += `
+
+<p>
+AI: Product nahi mila. Category try karo.
+</p>
+
+`;
+
+}
+
+
+}
+
+
+
+document.getElementById("user-message").value="";
 
 
 }
