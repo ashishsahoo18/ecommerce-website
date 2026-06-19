@@ -1776,66 +1776,85 @@ function initHamburger() {
 }
 function askAI(){
 
-
-let message =
-document.getElementById("user-message").value.toLowerCase();
-
-
-
-let chat =
-document.getElementById("chat-area");
+let message = document
+.getElementById("user-message")
+.value
+.toLowerCase();
 
 
+let chat = document.getElementById("chat-area");
 
-let reply="";
+
+let reply = "";
 
 
 
-if(message.includes("phone") || message.includes("mobile")){
-
+if(
+message.includes("watch") ||
+message.includes("smart watch") ||
+message.includes("smartwatch")
+){
 
 reply =
-"AI: I recommend Samsung, iPhone, OnePlus based on your budget.";
-
+"AI: For ₹7000 budget, I recommend Noise, Fire-Boltt, boAt and Amazfit smart watches. Look for AMOLED display, calling feature and health tracking.";
 
 }
 
 
-else if(message.includes("laptop")){
 
+else if(
+message.includes("7000") ||
+message.includes("5000") ||
+message.includes("10000")
+){
 
 reply =
-"AI: For coding and gaming, try ASUS, HP or Lenovo laptops.";
-
+"AI: Your budget is around ₹7000. I will suggest mid-range products with good features.";
 
 }
 
 
-else if(message.includes("cheap")){
 
+else if(
+message.includes("phone") ||
+message.includes("mobile")
+){
 
 reply =
-"AI: Check our products under ₹10000 section.";
-
+"AI: I recommend Samsung, iPhone, OnePlus and Realme phones based on your budget.";
 
 }
 
 
-else if(message.includes("gaming")){
 
+else if(
+message.includes("laptop")
+){
 
 reply =
-"AI: Gaming setup recommendation: Gaming laptop + mouse + keyboard.";
-
+"AI: For coding and gaming, check ASUS, HP and Lenovo laptops.";
 
 }
+
+
+
+else if(
+message.includes("gaming")
+){
+
+reply =
+"AI: Gaming setup suggestion: Gaming laptop, mechanical keyboard and gaming mouse.";
+
+}
+
 
 
 else{
 
 
 reply =
-"AI: Tell me your category, budget or requirement.";
+"AI: Tell me product name + budget. Example: Smart watch under 7000";
+
 
 }
 
@@ -1850,5 +1869,9 @@ chat.innerHTML +=
 
 
 document.getElementById("user-message").value="";
+
+
+chat.scrollTop = chat.scrollHeight;
+
 
 }
