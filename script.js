@@ -1776,102 +1776,111 @@ function initHamburger() {
 }
 function askAI(){
 
+
 let message = document
 .getElementById("user-message")
 .value
 .toLowerCase();
 
 
+
 let chat = document.getElementById("chat-area");
 
 
-let reply = "";
+
+// existing website products read karega
+
+let allProducts = document.querySelectorAll(".product-card");
+
+
+let found = [];
+
+
+
+allProducts.forEach(product=>{
+
+
+let name =
+product.querySelector("h3")
+.innerText
+.toLowerCase();
+
+
+
+let category =
+product.querySelector(".category")
+.innerText
+.toLowerCase();
+
+
+
+let priceText =
+product.querySelector(".price")
+.innerText
+.replace("₹","");
+
+
+
+let price =
+Number(priceText);
 
 
 
 if(
-message.includes("watch") ||
-message.includes("smart watch") ||
-message.includes("smartwatch")
+message.includes(name) ||
+message.includes(category) ||
+(message.includes("7000") && price <= 7000)
 ){
 
-reply =
-"AI: For ₹7000 budget, I recommend Noise, Fire-Boltt, boAt and Amazfit smart watches. Look for AMOLED display, calling feature and health tracking.";
 
-}
-
-
-
-else if(
-message.includes("7000") ||
-message.includes("5000") ||
-message.includes("10000")
-){
-
-reply =
-"AI: Your budget is around ₹7000. I will suggest mid-range products with good features.";
-
-}
-
-
-
-else if(
-message.includes("phone") ||
-message.includes("mobile")
-){
-
-reply =
-"AI: I recommend Samsung, iPhone, OnePlus and Realme phones based on your budget.";
-
-}
-
-
-
-else if(
-message.includes("laptop")
-){
-
-reply =
-"AI: For coding and gaming, check ASUS, HP and Lenovo laptops.";
-
-}
-
-
-
-else if(
-message.includes("gaming")
-){
-
-reply =
-"AI: Gaming setup suggestion: Gaming laptop, mechanical keyboard and gaming mouse.";
-
-}
-
-
-
-else{
-
-
-reply =
-"AI: Tell me product name + budget. Example: Smart watch under 7000";
+found.push(product.innerHTML);
 
 
 }
 
+
+
+});
+
+
+
+
+if(found.length > 0){
 
 
 chat.innerHTML +=
 `
 <p>User: ${message}</p>
-<p>${reply}</p>
+
+<p>
+AI: I found these products for you 👇
+</p>
+
+${found.join("")}
+
 `;
 
 
 
+}
+
+else{
+
+
+chat.innerHTML +=
+`
+<p>User: ${message}</p>
+
+<p>
+AI: No matching product found.
+Try category or budget.
+</p>
+`;
+
+}
+
+
 document.getElementById("user-message").value="";
-
-
-chat.scrollTop = chat.scrollHeight;
 
 
 }
