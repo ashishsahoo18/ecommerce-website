@@ -1777,10 +1777,20 @@ function initHamburger() {
 function askAI(){
 
 
-let message = document
-.getElementById("user-message")
-.value
-.toLowerCase();
+let input = document.getElementById("user-message");
+
+
+let message = input.value.trim();
+
+
+
+if(message === ""){
+
+alert("Please type something");
+
+return;
+
+}
 
 
 
@@ -1788,99 +1798,19 @@ let chat = document.getElementById("chat-area");
 
 
 
-// existing website products read karega
+chat.innerHTML += `
 
-let allProducts = document.querySelectorAll(".product-card");
-
-
-let found = [];
-
-
-
-allProducts.forEach(product=>{
-
-
-let name =
-product.querySelector("h3")
-.innerText
-.toLowerCase();
-
-
-
-let category =
-product.querySelector(".category")
-.innerText
-.toLowerCase();
-
-
-
-let priceText =
-product.querySelector(".price")
-.innerText
-.replace("₹","");
-
-
-
-let price =
-Number(priceText);
-
-
-
-if(
-message.includes(name) ||
-message.includes(category) ||
-(message.includes("7000") && price <= 7000)
-){
-
-
-found.push(product.innerHTML);
-
-
-}
-
-
-
-});
-
-
-
-
-if(found.length > 0){
-
-
-chat.innerHTML +=
-`
 <p>User: ${message}</p>
 
 <p>
-AI: I found these products for you 👇
+AI: Searching products for "${message}"...
 </p>
-
-${found.join("")}
 
 `;
 
 
 
-}
-
-else{
-
-
-chat.innerHTML +=
-`
-<p>User: ${message}</p>
-
-<p>
-AI: No matching product found.
-Try category or budget.
-</p>
-`;
-
-}
-
-
-document.getElementById("user-message").value="";
+input.value="";
 
 
 }
