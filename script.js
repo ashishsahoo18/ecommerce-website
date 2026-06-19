@@ -1774,3 +1774,81 @@ function initHamburger() {
     hamburger.addEventListener('click', () => catNav.classList.toggle('open'));
   }
 }
+function askAI(){
+
+
+let message =
+document.getElementById("user-message").value.toLowerCase();
+
+
+
+let chat =
+document.getElementById("chat-area");
+
+
+
+let reply="";
+
+
+
+if(message.includes("phone") || message.includes("mobile")){
+
+
+reply =
+"AI: I recommend Samsung, iPhone, OnePlus based on your budget.";
+
+
+}
+
+
+else if(message.includes("laptop")){
+
+
+reply =
+"AI: For coding and gaming, try ASUS, HP or Lenovo laptops.";
+
+
+}
+
+
+else if(message.includes("cheap")){
+
+
+reply =
+"AI: Check our products under ₹10000 section.";
+
+
+}
+
+
+else if(message.includes("gaming")){
+
+
+reply =
+"AI: Gaming setup recommendation: Gaming laptop + mouse + keyboard.";
+
+
+}
+
+
+else{
+
+
+reply =
+"AI: Tell me your category, budget or requirement.";
+
+}
+
+
+
+chat.innerHTML +=
+`
+<p>User: ${message}</p>
+<p>${reply}</p>
+`;
+
+
+
+document.getElementById("user-message").value="";
+
+}
