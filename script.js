@@ -1917,3 +1917,21 @@ document.getElementById("user-message").value="";
 
 
 }
+document.getElementById("ai-toggle")
+.onclick=function(){
+
+let box=document.getElementById("ai-chat");
+
+
+if(box.style.display=="block"){
+
+box.style.display="none";
+
+}
+else{
+
+box.style.display="block";
+
+}
+
+}
