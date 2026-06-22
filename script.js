@@ -1948,24 +1948,3 @@ askAI();
 
 
 });
-function voiceSearch(){
-
-let speech =
-new webkitSpeechRecognition();
-
-
-speech.lang="en-IN";
-
-
-speech.onresult=function(event){
-
-document.getElementById("user-message").value =
-event.results[0][0].transcript;
-
-
-}
-
-
-speech.start();
-
-}
