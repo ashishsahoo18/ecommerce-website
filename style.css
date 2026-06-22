@@ -1014,21 +1014,3 @@ width:20%;
 padding:10px;
 
 }
-#ai-toggle{
-
-position:fixed;
-right:20px;
-bottom:20px;
-width:60px;
-height:60px;
-border-radius:50%;
-font-size:25px;
-
-}
-
-
-.ai-box{
-
-display:none;
-
-}
