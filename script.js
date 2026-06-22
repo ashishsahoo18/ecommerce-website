@@ -1935,3 +1935,16 @@ box.style.display="block";
 }
 
 }
+document
+.getElementById("user-message")
+.addEventListener("keypress",function(e){
+
+
+if(e.key==="Enter"){
+
+askAI();
+
+}
+
+
+});
