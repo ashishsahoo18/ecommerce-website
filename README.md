@@ -82,8 +82,5 @@ Added admin dashboard
 Added product details page
 Added API integration
 
-🎯 Project Objective:-
-The project was developed to create a real-world e-commerce shopping experience and improve frontend development skills including UI design, JavaScript functionality, filtering logic, and authentication workflow.
-
 👨‍💻 Author
 Ashu
