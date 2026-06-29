@@ -222,12 +222,6 @@ let password =
 document.getElementById("password").value;
 
 
-// correct login details
-
-let correctEmail = "admin@gmail.com";
-let correctPassword = "12345";
-
-
 
 if(email=="" || password==""){
 
@@ -238,22 +232,40 @@ return;
 
 
 
-// check login
+// email validation
 
-if(email === correctEmail && password === correctPassword){
+let emailPattern =
+/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+
+
+if(!emailPattern.test(email)){
+
+alert("Enter Correct Email");
+return;
+
+}
+
+
+
+// password validation
+
+if(password.length < 6){
+
+alert("Password must be at least 6 characters");
+return;
+
+}
+
+
+
+// login success
 
 localStorage.setItem("user", email);
 
 alert("Login Successful");
 
-window.location.href = "index.html";
-
-}
-else{
-
-alert("Wrong Email or Password");
-
-}
+window.location.href="index.html";
 
 }
 
