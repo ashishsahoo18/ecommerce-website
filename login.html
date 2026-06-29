@@ -32,7 +32,6 @@ body::before {
     100% { transform: translate(100px, 100px); }
 }
 
-
 .container {
 
     position: relative;
@@ -80,7 +79,6 @@ body::before {
 }
 
 
-
 @keyframes spin {
 
 100%{
@@ -98,7 +96,6 @@ text-shadow:0 0 10px #00f7ff;
 }
 
 
-
 input {
 
 width:100%;
@@ -113,14 +110,12 @@ outline:none;
 }
 
 
-
 input:focus{
 
 border-color:#00f7ff;
 box-shadow:0 0 10px #00f7ff;
 
 }
-
 
 
 button {
@@ -196,7 +191,6 @@ Login
 </button>
 
 
-
 <p>
 Don't have account?
 <span onclick="signup()">
@@ -206,8 +200,6 @@ Sign Up
 
 
 </div>
-
-
 
 
 <script>
@@ -220,7 +212,6 @@ document.getElementById("email").value;
 
 let password =
 document.getElementById("password").value;
-
 
 
 if(email=="" || password==""){
@@ -238,15 +229,12 @@ let emailPattern =
 /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 
-
 if(!emailPattern.test(email)){
 
 alert("Enter Correct Email");
 return;
 
 }
-
-
 
 // password validation
 
@@ -256,7 +244,6 @@ alert("Password must be at least 6 characters");
 return;
 
 }
-
 
 
 // login success
@@ -270,7 +257,6 @@ window.location.href="index.html";
 }
 
 
-
 function signup(){
 
 alert("Signup page coming soon");
@@ -278,8 +264,6 @@ alert("Signup page coming soon");
 }
 
 </script>
-
-
 
 </body>
 
