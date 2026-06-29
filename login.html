@@ -215,58 +215,55 @@ Sign Up
 
 function login(){
 
-
 let email =
 document.getElementById("email").value;
 
-
 let password =
 document.getElementById("password").value;
+
+
+// correct login details
+
+let correctEmail = "admin@gmail.com";
+let correctPassword = "12345";
 
 
 
 if(email=="" || password==""){
 
 alert("Please fill all fields");
-
 return;
 
 }
 
 
 
+// check login
 
-// save login user
+if(email === correctEmail && password === correctPassword){
 
-localStorage.setItem(
-"user",
-email
-);
-
-
+localStorage.setItem("user", email);
 
 alert("Login Successful");
 
+window.location.href = "index.html";
 
-// redirect ecommerce home page
+}
+else{
 
-window.location.href="index.html";
-
+alert("Wrong Email or Password");
 
 }
 
+}
 
 
 
 function signup(){
 
-
 alert("Signup page coming soon");
 
-
 }
-
-
 
 </script>
 
