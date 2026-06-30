@@ -47,7 +47,6 @@ body::before {
 
 }
 
-
 .container::before {
 
     content:"";
@@ -164,7 +163,6 @@ cursor:pointer;
 
 </head>
 
-
 <body>
 
 
@@ -185,7 +183,6 @@ id="password"
 placeholder="Password">
 
 
-
 <button onclick="login()">
 Login
 </button>
@@ -204,7 +201,6 @@ Sign Up
 
 <script>
 
-
 function login(){
 
 let email =
@@ -220,8 +216,6 @@ alert("Please fill all fields");
 return;
 
 }
-
-
 
 // email validation
 
@@ -264,6 +258,15 @@ alert("Signup page coming soon");
 }
 
 </script>
+<form action="login.php" method="POST">
+
+<input type="email" name="email" placeholder="Email">
+
+<input type="password" name="password" placeholder="Password">
+
+<button type="submit">Login</button>
+
+</form>
 
 </body>
 
